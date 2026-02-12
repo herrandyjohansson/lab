@@ -173,8 +173,10 @@ def run_monitor():
     # Heartbeat emails: optional, controlled by EMAIL_ON_EVERY_CHECK env
     email_on_every_check = os.environ.get("EMAIL_ON_EVERY_CHECK", "").lower() in ("1", "true", "yes")
     if email_on_every_check:
+        tickets_available = current["ticket_status"] in ("Biljetter", "Biljetter ute nu")
+        subject = "NU NU NU" if tickets_available else "Nope, not yet"
         notify_gmail(
-            "Project Hail Mary - Heartbeat",
+            subject,
             f"Checked at {now}\nStatus: {current['ticket_status']}\nPremiere: {current.get('premiere_date', '')}",
         )
 
