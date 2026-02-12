@@ -1,0 +1,21 @@
+.container {
+  margin: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.project-portal {
+  width: max-content;
+  height: 100%;
+  display: grid;
+  position: relative;
+  gap: 0.5rem;
+}
+
+.cell {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid coral;
+}

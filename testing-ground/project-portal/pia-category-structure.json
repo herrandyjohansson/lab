@@ -1,0 +1,98 @@
+{
+  "Access control": {
+    "Access control category": "Access control category",
+    "Access control management software": "Access control management software",
+    "Credentials": "Credentials",
+    "Network I/O relay modules": "Network I/O relay modules",
+    "Network door controllers": "Network door controllers",
+    "Readers": "Readers"
+  },
+  "Accessories": {
+    "Mounts": "Mounts",
+    "Power and connectivity": "Power and connectivity",
+    "Joysticks and keypads": "Joysticks and keypads",
+    "Audio": "Audio",
+    "Storage": "Storage",
+    "Illuminators": "Illuminators",
+    "Housings and cabinets": "Housings and cabinets",
+    "Lenses": "Lenses",
+    "Tools and extras": "Tools and extras",
+    "Wearables accessories": "Wearables accessories",
+    "Canon accessories": "Canon accessories"
+  },
+  "Analytics": {
+    "Analytics category": "Analytics category",
+    "Axis analytics": "Axis analytics"
+  },
+  "Explosion-protected devices": {
+    "Accessories for hazardous areas": "Accessories for hazardous areas",
+    "Explosion-protected cameras": "Explosion-protected cameras",
+    "Explosion-protected cameras category": "Explosion-protected cameras category",
+    "Explosion-protected category": "Explosion-protected category",
+    "Explosion-protected speakers": "Explosion-protected speakers"
+  },
+  "Network audio": {
+    "Network audio category": "Network audio category",
+    "Network speakers": "Network speakers",
+    "Audio management software": "Audio management software",
+    "Audio system devices": "Audio system devices",
+    "2N SIP Mic": "2N SIP Mic"
+  },
+  "Network cameras": {
+    "Network cameras category": "Network cameras category",
+    "Dome cameras": "Dome cameras",
+    "Box cameras": "Box cameras",
+    "Bullet cameras": "Bullet cameras",
+    "PTZ cameras": "PTZ cameras",
+    "Modular cameras": "Modular cameras",
+    "Panoramic cameras": "Panoramic cameras",
+    "Thermal cameras": "Thermal cameras",
+    "Explosion-protected cameras": "Explosion-protected cameras",
+    "Onboard cameras": "Onboard cameras",
+    "Specialty cameras": "Specialty cameras",
+    "Positioning cameras": "Positioning cameras",
+    "Canon network cameras": "Canon network cameras"
+  },
+  "Network intercoms": {
+    "Network intercoms category": "Network intercoms category",
+    "Video intercoms": "Video intercoms",
+    "Audio intercoms": "Audio intercoms",
+    "Answering units": "Answering units",
+    "Safety intercoms": "Safety intercoms",
+    "2N intercoms": "2N intercoms"
+  },
+  "System devices": {
+    "System devices category": "System devices category",
+    "Audio/visual alerters": "Audio/visual alerters",
+    "Environmental sensors": "Environmental sensors",
+    "I/O devices": "I/O devices",
+    "Network switches": "Network switches",
+    "People counters": "People counters",
+    "Portcast devices": "Portcast devices",
+    "Radars": "Radars",
+    "Video decoders": "Video decoders",
+    "Video encoders": "Video encoders"
+  },
+  "Tools": {
+    "Tools category": "Tools category",
+    "Find and compare": "Find and compare",
+    "Install and manage": "Install and manage",
+    "Plan and design": "Plan and design"
+  },
+  "Video management software": {
+    "Video management software category": "Video management software category",
+    "Video management software": "Video management software"
+  },
+  "Video recorders and workstations": {
+    "Video recorders and workstations category": "Video recorders and workstations category",
+    "Video recorders": "Video recorders",
+    "Workstations": "Workstations"
+  },
+  "Wearables": {
+    "Wearables category": "Wearables category",
+    "Body worn cameras": "Body worn cameras",
+    "In vehicle": "In vehicle",
+    "Software and services": "Software and services",
+    "System devices for body worn": "System devices for body worn"
+  }
+}

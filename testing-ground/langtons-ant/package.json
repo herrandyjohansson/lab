@@ -1,0 +1,19 @@
+{
+  "name": "langtons-ant",
+  "version": "1.0.0",
+  "description": "Langton's Ant implementation in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["langtons-ant", "cellular-automaton", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+

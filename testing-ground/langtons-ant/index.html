@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langton's Ant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        #canvas {
+            border: 2px solid #333;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        button.stop {
+            background-color: #f44336;
+        }
+        button.stop:hover {
+            background-color: #da190b;
+        }
+        button.reset {
+            background-color: #ff9800;
+        }
+        button.reset:hover {
+            background-color: #e68900;
+        }
+        .info {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .slider-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        input[type="range"] {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Langton's Ant</h1>
+    <canvas id="canvas"></canvas>
+    <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" class="stop" disabled>Stop</button>
+        <button id="stepBtn">Step</button>
+        <button id="resetBtn" class="reset">Reset</button>
+        <div class="slider-container">
+            <label for="speedSlider">Speed:</label>
+            <input type="range" id="speedSlider" min="1" max="100" value="1">
+            <span id="speedValue">1</span>
+        </div>
+    </div>
+    <div class="info">
+        <p><strong>Instructions:</strong></p>
+        <ul>
+            <li>Click <strong>Start</strong> to begin the simulation</li>
+            <li>Click <strong>Stop</strong> to pause</li>
+            <li>Click <strong>Step</strong> to advance one step at a time</li>
+            <li>Use the <strong>Speed</strong> slider to control steps per frame</li>
+            <li>The red square is the ant, green line shows direction</li>
+        </ul>
+    </div>
+
+    <script type="module">
+        import { Visualizer } from './dist/index.js';
+
+        const canvas = document.getElementById('canvas');
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const stepBtn = document.getElementById('stepBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const speedSlider = document.getElementById('speedSlider');
+        const speedValue = document.getElementById('speedValue');
+
+        const visualizer = new Visualizer(canvas, 4, 1);
+
+        startBtn.addEventListener('click', () => {
+            visualizer.start();
+            startBtn.disabled = true;
+            stopBtn.disabled = false;
+            stepBtn.disabled = true;
+        });
+
+        stopBtn.addEventListener('click', () => {
+            visualizer.stop();
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+            stepBtn.disabled = false;
+        });
+
+        stepBtn.addEventListener('click', () => {
+            visualizer.step();
+        });
+
+        resetBtn.addEventListener('click', () => {
+            visualizer.reset();
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+            stepBtn.disabled = false;
+        });
+
+        speedSlider.addEventListener('input', (e) => {
+            const speed = parseInt(e.target.value);
+            speedValue.textContent = speed;
+            visualizer.setStepsPerFrame(speed);
+        });
+
+        // Initial draw (show ant at starting position)
+        visualizer.draw();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,43 @@
+# Project Hail Mary monitor - Justfile
+# Run: just <recipe>
+
+default:
+    just check
+
+# One-time check: print current Project Hail Mary info
+check:
+    python3 check.py
+
+# Monitor mode: check for changes, notify via macOS notification
+monitor:
+    python3 check.py --monitor
+
+# Rich TUI dashboard (auto-refresh every 30s)
+tui:
+    python3 check.py --tui
+
+# TUI via PowerShell (pwsh)
+tui-ps:
+    pwsh -File tui.ps1
+
+# Send test email to verify Gmail config
+test-email:
+    python3 check.py --test-email
+
+# Start scheduled monitoring (runs every 5 min via launchd)
+start:
+    launchctl load ~/Library/LaunchAgents/se.biografspegeln.project-hail-mary.plist
+    echo "Monitoring started"
+
+# Stop scheduled monitoring
+stop:
+    launchctl unload ~/Library/LaunchAgents/se.biografspegeln.project-hail-mary.plist
+    echo "Monitoring stopped"
+
+# Check if launchd job is running
+status:
+    launchctl list | grep project-hail-mary || echo "Not running"
+
+# View monitor logs
+logs:
+    tail -f ~/Library/Logs/project-hail-mary.log
