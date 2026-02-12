@@ -1,13 +1,19 @@
 # Project Hail Mary – ticket status monitor
 # Runs every 30 min, checks Biograf Spegeln, emails when tickets go on sale.
-# Private repos: 2000 min/month free. ~30 min interval ≈ 720 runs × ~0.5 min ≈ 360 min.
+# Private repos: 2000 min/month free. ~60 min interval ≈ 720 runs × ~0.5 min ≈ 360 min.
 
 name: Check Project Hail Mary Tickets
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Every 30 minutes
-  workflow_dispatch:  # Manual trigger
+    - cron: "0 * * * *"  # Every 60 minutes (at :00)
+  workflow_dispatch:
+    inputs:
+      test_email:
+        description: "Send test email only (skip monitor)"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   check:
@@ -27,16 +33,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Test email
+        if: github.event.inputs.test_email == 'true'
+        env:
+          GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
+          GOOGLE_CLOUD_KEY: ${{ secrets.GOOGLE_CLOUD_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          python check.py --test-email
+
       - name: Run monitor
+        if: github.event.inputs.test_email != 'true'
         env:
           STATE_FILE: ${{ github.workspace }}/testing-ground/project-hail-mary/state.json
           GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
           GOOGLE_CLOUD_KEY: ${{ secrets.GOOGLE_CLOUD_KEY }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_ON_EVERY_CHECK: ${{ secrets.EMAIL_ON_EVERY_CHECK }}
         run: |
           python check.py --monitor --state-file "$STATE_FILE"
 
       - name: Commit and push if state changed
+        if: github.event.inputs.test_email != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -44,7 +62,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No change in state"
           else
-            git commit -m "chore: update Project Hail Mary ticket state"
+            git commit -m "chore: Project Hail Mary check"
             git push
           fi
 

@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+from datetime import datetime, timezone
 import smtplib
 import subprocess
 from email.mime.text import MIMEText
@@ -154,9 +155,28 @@ def send_test_email():
         raise SystemExit(f"Failed to send test email: {e}")
 
 
+def _state_for_compare(state):
+    """Fields used to detect real changes (excludes last_checked_at)."""
+    return {
+        "ticket_status": state.get("ticket_status"),
+        "premiere_date": state.get("premiere_date"),
+        "url": state.get("url", ""),
+    }
+
+
 def run_monitor():
     movie = fetch_movie_data()
     current = extract_state(movie)
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    current["last_checked_at"] = now
+
+    # Heartbeat emails: optional, controlled by EMAIL_ON_EVERY_CHECK env
+    email_on_every_check = os.environ.get("EMAIL_ON_EVERY_CHECK", "").lower() in ("1", "true", "yes")
+    if email_on_every_check:
+        notify_gmail(
+            "Project Hail Mary - Heartbeat",
+            f"Checked at {now}\nStatus: {current['ticket_status']}\nPremiere: {current.get('premiere_date', '')}",
+        )
 
     previous = None
     if STATE_FILE.exists():
@@ -169,7 +189,8 @@ def run_monitor():
         STATE_FILE.write_text(json.dumps(current, indent=2))
         return
 
-    if current == previous:
+    if _state_for_compare(current) == _state_for_compare(previous):
+        STATE_FILE.write_text(json.dumps(current, indent=2))
         return
 
     # State changed - notify

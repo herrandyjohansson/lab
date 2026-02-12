@@ -86,6 +86,11 @@ Runs every 30 minutes in the cloud. No local process needed.
    - `GMAIL_EMAIL` – your Gmail address
    - `GOOGLE_CLOUD_KEY` – your [Gmail App Password](https://support.google.com/accounts/answer/185833)
    - `EMAIL_TO` – recipient (optional)
+   - `EMAIL_ON_EVERY_CHECK` – set to `true` to get an email on every run (optional; for testing)
 3. Push. The workflow runs on schedule and on `workflow_dispatch` (manual run).
 
-State is stored in `state.json` and committed when it changes. Private repos: ~360 min/month used (within free tier).
+**Heartbeat:** Each run commits `state.json` with `last_checked_at` – check the commit history to confirm the job is running.
+
+**Test email:** Go to **Actions** → **Run workflow** → check **Test email** to send a one-off test email.
+
+State is stored in `state.json` and committed every run. Private repos: ~360 min/month used (within free tier).
