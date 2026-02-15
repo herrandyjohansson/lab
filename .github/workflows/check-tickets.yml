@@ -1,12 +1,12 @@
 # Project Hail Mary – ticket status monitor
-# Runs every 30 min, checks Biograf Spegeln, emails when tickets go on sale.
-# Private repos: 2000 min/month free. ~60 min interval ≈ 720 runs × ~0.5 min ≈ 360 min.
+# Runs every 3 hours, checks Biograf Spegeln, emails when tickets go on sale.
+# Private repos: 2000 min/month free. ~3h interval ≈ 240 runs × ~0.5 min ≈ 120 min.
 
 name: Check Project Hail Mary Tickets
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Every 60 minutes (at :00)
+    - cron: "0 7,10,13,16,18 * * *"  # Every ~3h between 08:00-19:00 CET (UTC-1)
   workflow_dispatch:
     inputs:
       test_email:
