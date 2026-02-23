@@ -91,7 +91,10 @@ class KbHallenScraper(BaseScraper):
             event_url = ""
             for text, url in event_links.items():
                 if name.lower() in text.lower() or text.lower() in name.lower():
-                    event_url = url
+                    if url.startswith('/'):
+                        event_url = f"https://kbhallen.dk{url}"
+                    else:
+                        event_url = url
                     break
             
             # Parse the date properly
@@ -100,7 +103,7 @@ class KbHallenScraper(BaseScraper):
             concerts.append({
                 'name': name,
                 'date': date_iso,
-                'time': time,
+                'time': time or '20:00',  # Default time if missing
                 'status': status,
                 'url': event_url,
                 'support': support,

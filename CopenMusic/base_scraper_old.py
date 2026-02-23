@@ -48,32 +48,36 @@ class BaseScraper(ABC):
         if not logger.handlers:
             handler = logging.StreamHandler()
             formatter = logging.Formatter(
-                '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+                f'[{self.venue_id}] %(asctime)s - %(levelname)s - %(message)s'
             )
             handler.setFormatter(formatter)
             logger.addHandler(handler)
         
         return logger
     
-    def fetch_page(self, url: str = None, retries: int = 3) -> Optional[BeautifulSoup]:
+    def fetch_page(self, url: Optional[str] = None, retries: int = 3) -> Optional[BeautifulSoup]:
         """
-        Fetch and parse a web page with retries.
+        Fetch webpage and return BeautifulSoup object.
         
         Args:
-            url: URL to fetch (optional, uses base_url if not provided)
+            url: URL to fetch (defaults to base_url)
             retries: Number of retry attempts
             
         Returns:
             BeautifulSoup object or None if failed
         """
-        if url is None:
-            url = self.base_url
-            
+        target_url = url or self.base_url
+        
         for attempt in range(retries):
             try:
-                response = self.session.get(url, timeout=self.config.get('timeout', 30))
+                self.logger.info(f"Fetching page: {target_url} (attempt {attempt + 1})")
+                
+                response = self.session.get(target_url, timeout=30)
                 response.raise_for_status()
-                time.sleep(1 / self.rate_limit)
+                
+                # Respect rate limiting
+                if self.rate_limit > 0:
+                    time.sleep(1 / self.rate_limit)
                 
                 return BeautifulSoup(response.content, 'html.parser')
                 
@@ -234,7 +238,7 @@ class BaseScraper(ABC):
             
             # Sort concerts by date and time
             try:
-                normalized_concerts.sort(key=lambda x: (x.get('date', ''), x.get('time', '')))
+                normalized_concerts.sort(key=lambda x: (x['date'], x['time']))
             except TypeError:
                 # Fallback for Python < 3.11
                 normalized_concerts.sort(key=lambda x: (x.get('date', ''), x.get('time', '')))
@@ -242,8 +246,7 @@ class BaseScraper(ABC):
             end_time = datetime.now()
             duration = (end_time - start_time).total_seconds()
             
-            log_msg = f"Successfully processed {len(normalized_concerts)} concerts in {duration:.2f}s"
-            self.logger.info(log_msg)
+            self.logger.info(f"Successfully processed {len(normalized_concerts)} concerts in {duration:.2f}s")
             
             return {
                 'venue_id': self.venue_id,

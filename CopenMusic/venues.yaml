@@ -1,5 +1,5 @@
 # CopenMusic Venues Configuration
-# Configuration for all concert venue scrapers
+# Configuration for all concert venues to scrape
 
 venues:
   kb_hallen:
@@ -7,30 +7,52 @@ venues:
     url: "https://kbhallen.dk/kalender/"
     scraper_class: "KbHallenScraper"
     enabled: true
-    rate_limit: 1  # requests per second
     venue_id: "kb_hallen"
-    description: "K.B. Hallen - Copenhagen's premier concert and event venue"
-    
-    # Venue-specific selectors and patterns (for future enhancement)
-    selectors:
-      concert_container: ".event-item"
-      name_selector: ".event-title"
-      date_selector: ".event-date"
-      time_selector: ".event-time"
-      status_selector: ".event-status"
-      url_selector: "a[href*='/event/']"
-    
-    # Parsing configuration
-    parsing:
-      date_format: "danish"  # danish, iso, or custom
-      timezone: "Europe/Copenhagen"
-      language: "da"
-    
-    # Retry and error handling
-    retry:
-      max_attempts: 3
-      backoff_factor: 2
-      timeout_seconds: 30
+    rate_limit:
+      requests_per_minute: 10
+      delay_between_requests: 6
+    headers:
+      User-Agent: "CopenMusic/1.0"
+    timeout: 30
+
+  pumpehuset:
+    name: "Pumpehuset"
+    url: "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop"
+    scraper_class: "PumpehusetScraper"
+    enabled: true
+    venue_id: "pumpehuset"
+    rate_limit:
+      requests_per_minute: 10
+      delay_between_requests: 6
+    headers:
+      User-Agent: "CopenMusic/1.0"
+    timeout: 30
+
+# Global configuration
+global:
+  output:
+    formats: ["json", "csv", "markdown"]
+    directory: "output"
+    filename_base: "concerts"
+  
+  logging:
+    level: "INFO"
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  performance:
+    max_workers: 4
+    request_timeout: 30
+    retry_attempts: 3
+    retry_delay: 5
+  
+  validation:
+    required_fields: ["name", "date", "time", "status"]
+    optional_fields: ["url", "support", "genre", "price"]
+  
+  notifications:
+    enabled: false
+    webhook_url: ""
+    email_recipients: []
 
   # Example configuration for future venues
   # vega:
@@ -71,25 +93,25 @@ global:
   output:
     directory: "output"
     formats: ["json", "csv", "markdown"]
-    
+
   # Logging settings
   logging:
     level: "INFO"
     format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    
+
   # Performance settings
   performance:
     max_concurrent_scrapers: 3
     request_timeout: 30
     max_retries: 3
-    
+
   # Data validation
   validation:
     require_name: true
     require_date: true
     require_url: true
     min_name_length: 2
-    
+
   # Notification settings (for future implementation)
   notifications:
     email:
@@ -99,7 +121,7 @@ global:
       username: ""
       password: ""
       recipients: []
-    
+
     webhook:
       enabled: false
       url: ""

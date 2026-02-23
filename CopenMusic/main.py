@@ -72,8 +72,10 @@ class ConcertScraperOrchestrator:
                 
                 scraper_class = scraper_classes.get(scraper_class_name)
                 if not scraper_class:
-                    self.logger.error(f"Unknown scraper class: {scraper_class_name}")
+                    self.logger.warning(f"Unknown scraper class: {scraper_class_name}")
                     continue
+                
+                self.logger.info(f"Loaded scraper for {venue_id}: {scraper_class_name}")
                 
                 # Create scraper instance with venue config
                 scraper_config = {
@@ -81,7 +83,8 @@ class ConcertScraperOrchestrator:
                     'venue_name': venue_config.get('name', venue_id),
                     'url': venue_config.get('url', ''),
                     'rate_limit': venue_config.get('rate_limit', 1),
-                    **venue_config
+                    'headers': venue_config.get('headers', {}),
+                    'timeout': venue_config.get('timeout', 30)
                 }
                 
                 scraper = scraper_class(scraper_config)
@@ -199,7 +202,11 @@ class ConcertScraperOrchestrator:
                 }
         
         # Sort all concerts by date and time
-        all_concerts.sort(key=lambda x: (x['date'], x['time']))
+        try:
+            all_concerts.sort(key=lambda x: (x['date'], x['time']))
+        except TypeError:
+            # Fallback for Python < 3.11
+            all_concerts.sort(key=lambda x: (x.get('date', ''), x.get('time', '')))
         
         # Filter upcoming concerts (today or future)
         today = datetime.now().strftime('%Y-%m-%d')
