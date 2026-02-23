@@ -6,7 +6,7 @@ name: CopenMusic Concert Scraper
 on:
   schedule:
     # Run daily at 09:00 Copenhagen time (08:00 UTC)
-    - cron: "0 8 * * *"  
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       test_mode:
@@ -57,35 +57,24 @@ jobs:
         run: |
           # Prepare command with optional venue filtering
           CMD="python main.py"
-          
+
           if [ "${{ github.event.inputs.venues }}" != "" ]; then
             echo "Scraping specific venues: ${{ github.event.inputs.venues }}"
             # Note: Venue filtering would need to be implemented in main.py
             # For now, we'll scrape all enabled venues
           fi
-          
-          # Run the scraper
+
+          # Run scraper
           $CMD --parallel
 
       - name: Verify output files
         run: |
           echo "Checking output files..."
           ls -la output/
-          
+
           if [ -f "output/concerts.json" ]; then
             echo "✓ JSON file created"
             echo "File size: $(wc -c < output/concerts.json) bytes"
-            
-            # Show summary
-            python -c "
-            import json
-            with open('output/concerts.json', 'r') as f:
-                data = json.load(f)
-            print(f'Total concerts: {data[\"metadata\"][\"total_concerts\"]}')
-            print(f'Upcoming concerts: {data[\"metadata\"][\"upcoming_concerts\"]}')
-            print(f'Venues: {data[\"metadata\"][\"venues_count\"]}')
-            print(f'Last updated: {data[\"last_updated\"]}')
-            "
           else
             echo "❌ JSON file not found"
             exit 1
@@ -96,14 +85,7 @@ jobs:
         id: summary
         run: |
           if [ -f "output/concerts.json" ]; then
-            TOTAL=$(python -c "import json; data=json.load(open('output/concerts.json')); print(data['metadata']['total_concerts'])")
-            UPCOMING=$(python -c "import json; data=json.load(open('output/concerts.json')); print(data['metadata']['upcoming_concerts'])")
-            VENUES=$(python -c "import json; data=json.load(open('output/concerts.json')); print(data['metadata']['venues_count'])")
-            
-            echo "summary=🎵 Found $TOTAL concerts ($UPCOMING upcoming) from $VENUES venues" >> $GITHUB_OUTPUT
-            echo "total_concerts=$TOTAL" >> $GITHUB_OUTPUT
-            echo "upcoming_concerts=$UPCOMING" >> $GITHUB_OUTPUT
-            echo "venues_count=$VENUES" >> $GITHUB_OUTPUT
+            python summary_script.py
           else
             echo "summary=❌ Failed to scrape concerts" >> $GITHUB_OUTPUT
             echo "total_concerts=0" >> $GITHUB_OUTPUT
@@ -116,10 +98,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           # Add output files
           git add output/
-          
+
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
@@ -136,7 +118,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "${{ steps.summary.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          
+
           if [ "${{ steps.summary.outputs.total_concerts }}" != "0" ]; then
             echo "### 📊 Statistics" >> $GITHUB_STEP_SUMMARY
             echo "- **Total concerts:** ${{ steps.summary.outputs.total_concerts }}" >> $GITHUB_STEP_SUMMARY
@@ -150,8 +132,8 @@ jobs:
           fi
 
     permissions:
-      contents: write  # For committing output files
-      actions: read   # For reading workflow inputs
+      contents: write # For committing output files
+      actions: read # For reading workflow inputs
 
   # Optional: Notification job (can be enabled later)
   notify:
