@@ -19,7 +19,8 @@ import io
 # Add the current directory to Python path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from scrapers import KbHallenScraper
+from scrapers.kb_hallen_scraper_simple import KbHallenScraper
+from scrapers.pumpehuset_scraper import PumpehusetScraper
 
 
 class ConcertScraperOrchestrator:
@@ -67,6 +68,7 @@ class ConcertScraperOrchestrator:
                 # Map class names to actual classes
                 scraper_classes = {
                     'KbHallenScraper': KbHallenScraper,
+                    'PumpehusetScraper': PumpehusetScraper,
                     # Add more scrapers here as they're implemented
                 }
                 

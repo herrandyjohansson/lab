@@ -27,7 +27,8 @@ class BaseScraper(ABC):
         self.venue_id = config.get('venue_id', 'unknown')
         self.venue_name = config.get('venue_name', 'Unknown Venue')
         self.base_url = config.get('url', '')
-        self.rate_limit = config.get('rate_limit', 1)  # requests per second
+        rate_limit_config = config.get('rate_limit', {})
+        self.rate_limit = rate_limit_config.get('requests_per_minute', 1) / 60  # Convert to requests per second
         self.session = requests.Session()
         self.logger = self._setup_logger()
         

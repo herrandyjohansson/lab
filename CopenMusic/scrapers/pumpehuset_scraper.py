@@ -22,9 +22,18 @@ class PumpehusetScraper(BaseScraper):
     
     def parse_concerts(self, soup: BeautifulSoup) -> List[Dict[str, Any]]:
         """
-        Parse Pumpehuset concerts from the program page.
+        Parse Pumpehuset concerts from program page.
         """
         concerts = []
+        
+        # Look for event links
+        event_links = {}
+        all_links = soup.find_all('a', href=re.compile(r'/event/|/arrangement/'))
+        for link in all_links:
+            href = link.get('href', '')
+            text = link.get_text().strip()
+            if text:
+                event_links[text] = href
         
         # Look for event containers with date information
         event_containers = soup.find_all('div', class_='single-event-banner-text')
@@ -62,16 +71,17 @@ class PumpehusetScraper(BaseScraper):
                 
                 # Try to find event URL
                 event_url = ""
-                all_links = soup.find_all('a', href=re.compile(r'/event/|/arrangement/'))
-                for link in all_links:
-                    link_text = link.get_text().strip()
-                    if artist_name.lower() in link_text.lower() or link_text.lower() in artist_name.lower():
-                        href = link.get('href', '')
-                        if href.startswith('/'):
-                            event_url = f"https://pumpehuset.dk{href}"
+                for text, url in event_links.items():
+                    if artist_name.lower() in text.lower() or text.lower() in artist_name.lower():
+                        if url.startswith('/'):
+                            event_url = f"https://pumpehuset.dk{url}"
                         else:
-                            event_url = href
+                            event_url = url
                         break
+            
+                # If no URL found, try to construct from program page
+                if not event_url:
+                    event_url = f"https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop"
                 
                 # Parse month name to number
                 month_map = {
