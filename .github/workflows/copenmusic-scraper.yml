@@ -1,0 +1,165 @@
+# CopenMusic Concert Scraper Workflow
+# Scrapes concert data from multiple venues and generates unified data files
+
+name: CopenMusic Concert Scraper
+
+on:
+  schedule:
+    # Run daily at 09:00 Copenhagen time (08:00 UTC)
+    - cron: "0 8 * * *"  
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "Run in test mode (skip git commit)"
+        required: false
+        default: false
+        type: boolean
+      venues:
+        description: "Specific venues to scrape (comma-separated, leave empty for all)"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  scrape-concerts:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: CopenMusic
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('CopenMusic/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run concert scraper
+        env:
+          PYTHONPATH: ${{ github.workspace }}/CopenMusic
+        run: |
+          # Prepare command with optional venue filtering
+          CMD="python main.py"
+          
+          if [ "${{ github.event.inputs.venues }}" != "" ]; then
+            echo "Scraping specific venues: ${{ github.event.inputs.venues }}"
+            # Note: Venue filtering would need to be implemented in main.py
+            # For now, we'll scrape all enabled venues
+          fi
+          
+          # Run the scraper
+          $CMD --parallel
+
+      - name: Verify output files
+        run: |
+          echo "Checking output files..."
+          ls -la output/
+          
+          if [ -f "output/concerts.json" ]; then
+            echo "✓ JSON file created"
+            echo "File size: $(wc -c < output/concerts.json) bytes"
+            
+            # Show summary
+            python -c "
+            import json
+            with open('output/concerts.json', 'r') as f:
+                data = json.load(f)
+            print(f'Total concerts: {data[\"metadata\"][\"total_concerts\"]}')
+            print(f'Upcoming concerts: {data[\"metadata\"][\"upcoming_concerts\"]}')
+            print(f'Venues: {data[\"metadata\"][\"venues_count\"]}')
+            print(f'Last updated: {data[\"last_updated\"]}')
+            "
+          else
+            echo "❌ JSON file not found"
+            exit 1
+          fi
+
+      - name: Generate summary
+        if: always()
+        id: summary
+        run: |
+          if [ -f "output/concerts.json" ]; then
+            TOTAL=$(python -c "import json; data=json.load(open('output/concerts.json')); print(data['metadata']['total_concerts'])")
+            UPCOMING=$(python -c "import json; data=json.load(open('output/concerts.json')); print(data['metadata']['upcoming_concerts'])")
+            VENUES=$(python -c "import json; data=json.load(open('output/concerts.json')); print(data['metadata']['venues_count'])")
+            
+            echo "summary=🎵 Found $TOTAL concerts ($UPCOMING upcoming) from $VENUES venues" >> $GITHUB_OUTPUT
+            echo "total_concerts=$TOTAL" >> $GITHUB_OUTPUT
+            echo "upcoming_concerts=$UPCOMING" >> $GITHUB_OUTPUT
+            echo "venues_count=$VENUES" >> $GITHUB_OUTPUT
+          else
+            echo "summary=❌ Failed to scrape concerts" >> $GITHUB_OUTPUT
+            echo "total_concerts=0" >> $GITHUB_OUTPUT
+            echo "upcoming_concerts=0" >> $GITHUB_OUTPUT
+            echo "venues_count=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: github.event.inputs.test_mode != 'true' && success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add output files
+          git add output/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Committing concert data updates"
+            git commit -m "🎵 Update concert data (${{ steps.summary.outputs.total_concerts }} concerts)"
+            git push
+          fi
+
+      - name: Create summary comment
+        if: always()
+        run: |
+          echo "## 🎵 CopenMusic Concert Scraper Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.summary.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.summary.outputs.total_concerts }}" != "0" ]; then
+            echo "### 📊 Statistics" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total concerts:** ${{ steps.summary.outputs.total_concerts }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Upcoming concerts:** ${{ steps.summary.outputs.upcoming_concerts }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Venues scraped:** ${{ steps.summary.outputs.venues_count }}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 📁 Output Files" >> $GITHUB_STEP_SUMMARY
+            echo "- [concerts.json](../CopenMusic/output/concerts.json) - Main data file" >> $GITHUB_STEP_SUMMARY
+            echo "- [concerts.csv](../CopenMusic/output/concerts.csv) - Spreadsheet format" >> $GITHUB_STEP_SUMMARY
+            echo "- [concerts.md](../CopenMusic/output/concerts.md) - Human readable" >> $GITHUB_STEP_SUMMARY
+          fi
+
+    permissions:
+      contents: write  # For committing output files
+      actions: read   # For reading workflow inputs
+
+  # Optional: Notification job (can be enabled later)
+  notify:
+    needs: scrape-concerts
+    runs-on: ubuntu-latest
+    if: failure() && github.event_name == 'schedule'
+    steps:
+      - name: Notify on failure
+        run: |
+          echo "Concert scraper failed during scheduled run"
+          # Add email/Slack notification logic here if needed
