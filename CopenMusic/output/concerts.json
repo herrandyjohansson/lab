@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "last_updated": "2026-02-23T14:42:49.428314",
   "metadata": {
     "scraped_at": "2026-02-23T14:42:49.428314",
     "duration_seconds": 0.211881,
+=======
+  "last_updated": "2026-02-23T13:26:40.053348",
+  "metadata": {
+    "scraped_at": "2026-02-23T13:26:40.053348",
+    "duration_seconds": 1.647121,
+>>>>>>> fbe83b92bdae6249514be03efb28176b0683136c
     "total_venues": 1,
     "successful_venues": 0,
     "total_concerts": 0,
@@ -14,11 +21,18 @@
       "venue_name": "K.B. Hallen",
       "concerts": [],
       "metadata": {
+<<<<<<< HEAD
         "total_concerts": 0,
         "scraped_at": "2026-02-23T14:42:49.640174",
         "duration_seconds": 0,
         "status": "error",
         "error": "unsupported operand type(s) for /: 'int' and 'dict'"
+=======
+        "total_concerts": 24,
+        "scraped_at": "2026-02-23T13:26:40.053395",
+        "duration_seconds": 1.646999,
+        "status": "success"
+>>>>>>> fbe83b92bdae6249514be03efb28176b0683136c
       }
     }
   },
