@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-02-24T08:12:35.085899
+Last updated: 2026-02-25T08:13:09.636470
 
 Total concerts: 28
 Upcoming concerts: 28
@@ -71,7 +71,7 @@ Upcoming concerts: 28
 ### GIVĒON
 
 - **Date:** 2026-03-10 at 20:00
-- **Status:** available
+- **Status:** few_tickets
 - **Support:** Sasha Keable + Opening act: Baby Rose
 - **Link:** [GIVĒON](https://kbhallen.dk/event/giveon_2026-03-10/)
 
@@ -91,7 +91,7 @@ Upcoming concerts: 28
 ### Michael Learns to Rock
 
 - **Date:** 2026-03-14 at 20:00
-- **Status:** available
+- **Status:** few_tickets
 - **Link:** [Michael Learns to Rock](https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/)
 
 ### the Kid LAROI
