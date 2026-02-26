@@ -1,18 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-02-25T08:13:09.636470
+Last updated: 2026-02-26T08:12:43.608356
 
-Total concerts: 28
-Upcoming concerts: 28
+Total concerts: 27
+Upcoming concerts: 27
 
 ## K.B. Hallen
-
-### Zach Top
-
-- **Date:** 2026-02-25 at 20:00
-- **Status:** available
-- **Support:** Wyatt Mccubbin
-- **Link:** [Zach Top](https://kbhallen.dk/event/zach-top_2026-02-25/)
 
 ### Joe Bonamassa
 

@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-02-25T08:13:09.636470",
+  "last_updated": "2026-02-26T08:12:43.608356",
   "metadata": {
-    "scraped_at": "2026-02-25T08:13:09.636470",
-    "duration_seconds": 8.015484,
+    "scraped_at": "2026-02-26T08:12:43.608356",
+    "duration_seconds": 7.644774,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 28,
-    "upcoming_concerts": 28,
+    "total_concerts": 27,
+    "upcoming_concerts": 27,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-zach-top-2026-02-25",
-          "name": "Zach Top",
-          "date": "2026-02-25",
-          "time": "20:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/zach-top_2026-02-25/",
-          "support": "Wyatt Mccubbin",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Zach Top",
-            "date": "2026-02-25",
-            "time": "20:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/zach-top_2026-02-25/",
-            "support": "Wyatt Mccubbin",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-joe-bonamassa-2026-02-27",
           "name": "Joe Bonamassa",
@@ -567,9 +544,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 24,
-        "scraped_at": "2026-02-25T08:13:09.636846",
-        "duration_seconds": 7.139028,
+        "total_concerts": 23,
+        "scraped_at": "2026-02-26T08:12:43.608670",
+        "duration_seconds": 6.653948,
         "status": "success"
       }
     },
@@ -671,36 +648,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-02-25T08:13:09.637270",
-        "duration_seconds": 8.014321,
+        "scraped_at": "2026-02-26T08:12:43.609217",
+        "duration_seconds": 7.643565,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-zach-top-2026-02-25",
-      "name": "Zach Top",
-      "date": "2026-02-25",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/zach-top_2026-02-25/",
-      "support": "Wyatt Mccubbin",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Zach Top",
-        "date": "2026-02-25",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/zach-top_2026-02-25/",
-        "support": "Wyatt Mccubbin",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-joe-bonamassa-2026-02-27",
       "name": "Joe Bonamassa",
@@ -1324,29 +1278,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "kb_hallen-zach-top-2026-02-25",
-      "name": "Zach Top",
-      "date": "2026-02-25",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/zach-top_2026-02-25/",
-      "support": "Wyatt Mccubbin",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Zach Top",
-        "date": "2026-02-25",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/zach-top_2026-02-25/",
-        "support": "Wyatt Mccubbin",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-joe-bonamassa-2026-02-27",
       "name": "Joe Bonamassa",
