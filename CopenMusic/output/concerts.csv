@@ -1,12 +1,11 @@
 id,name,date,time,status,venue,venue_name,support,genre,price,url
-kb_hallen-joe-bonamassa-2026-02-27,Joe Bonamassa,2026-02-27,20:00,available,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/joe-bonamassa_2026-10-27/
 kb_hallen-loppemarked-2026-02-28,Loppemarked,2026-02-28,10:00,available,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/loppemarked_2026-02-28/
 kb_hallen-k-pop-infinity-2026-02-28,K-POP INFINITY,2026-02-28,14:30,sold_out,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/
 kb_hallen-k-pop-infinity-2026-02-28,K-POP INFINITY,2026-02-28,18:30,sold_out,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/
 kb_hallen-august-høyen-2026-02-28,August Høyen,2026-02-28,20:00,available,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/august-hoyen_2026-11-28/
 kb_hallen-loppemarked-2026-03-01,Loppemarked,2026-03-01,10:00,available,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/loppemarked_2026-02-28/
 kb_hallen-cannonball-festival-2026-2026-03-06,Cannonball Festival 2026,2026-03-06,16:00,few_tickets,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/cannonball-festival-2026_2026-03-06/
-kb_hallen-airtox-dominance-6.0-2026-03-06,AIRTOX DOMINANCE 6.0,2026-03-06,20:00,available,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/
+kb_hallen-airtox-dominance-6.0-2026-03-06,AIRTOX DOMINANCE 6.0,2026-03-06,20:00,few_tickets,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/
 kb_hallen-cannonball-festival-2026-2026-03-07,Cannonball Festival 2026,2026-03-07,16:00,few_tickets,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/cannonball-festival-2026_2026-03-06/
 kb_hallen-givēon-2026-03-10,GIVĒON,2026-03-10,20:00,few_tickets,kb_hallen,K.B. Hallen,Sasha Keable + Opening act: Baby Rose,,,https://kbhallen.dk/event/giveon_2026-03-10/
 kb_hallen-lamb-of-god-2026-03-11,Lamb Of God,2026-03-11,17:45,available,kb_hallen,K.B. Hallen,Thy Art Is Murder + Fit For An Autopsy + Vended,,,https://kbhallen.dk/event/lamb-of-god_2026-08-11/
@@ -16,6 +15,7 @@ kb_hallen-the-kid-laroi-2026-03-15,the Kid LAROI,2026-03-15,20:00,available,kb_h
 kb_hallen-tyler-childers-2026-03-17,Tyler Childers,2026-03-17,20:00,sold_out,kb_hallen,K.B. Hallen,Molly Tuttle,,,https://kbhallen.dk/event/tyler-childers_2026-03-17/
 kb_hallen-avatar:-the-last-airbender-in-concert-2026-03-22,Avatar: The Last Airbender in Concert,2026-03-22,20:00,sold_out,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/
 pumpehuset-27.-mar-2026-2026-03-27,27. mar 2026,2026-03-27,19:00,available,pumpehuset,Pumpehuset,,,,https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop
+kb_hallen-joe-bonamassa-2026-03-27,Joe Bonamassa,2026-03-27,20:00,available,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/joe-bonamassa_2026-10-27/
 kb_hallen-k-pop-infinity-2026-03-29,K-POP INFINITY,2026-03-29,11:00,sold_out,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/
 kb_hallen-k-pop-infinity-2026-03-29,K-POP INFINITY,2026-03-29,15:00,sold_out,kb_hallen,K.B. Hallen,,,,https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/
 kb_hallen-dimmu-borgir-&-behemoth-2026-03-30,Dimmu Borgir & Behemoth,2026-03-30,19:00,available,kb_hallen,K.B. Hallen,Dark Funaral,,,https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/

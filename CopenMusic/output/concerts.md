@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-02-27T08:11:05.168130
+Last updated: 2026-02-28T08:04:13.076480
 
 Total concerts: 27
 Upcoming concerts: 27
 
 ## K.B. Hallen
-
-### Joe Bonamassa
-
-- **Date:** 2026-02-27 at 20:00
-- **Status:** available
-- **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
 
 ### Loppemarked
 
@@ -52,7 +46,7 @@ Upcoming concerts: 27
 ### AIRTOX DOMINANCE 6.0
 
 - **Date:** 2026-03-06 at 20:00
-- **Status:** available
+- **Status:** few_tickets
 - **Link:** [AIRTOX DOMINANCE 6.0](https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/)
 
 ### Cannonball Festival 2026
@@ -105,6 +99,12 @@ Upcoming concerts: 27
 - **Date:** 2026-03-22 at 20:00
 - **Status:** sold_out
 - **Link:** [Avatar: The Last Airbender in Concert](https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/)
+
+### Joe Bonamassa
+
+- **Date:** 2026-03-27 at 20:00
+- **Status:** available
+- **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
 
 ### K-POP INFINITY
 
