@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-02-28T08:04:13.076480
+Last updated: 2026-03-01T08:04:33.996801
 
 Total concerts: 27
 Upcoming concerts: 27
@@ -9,45 +9,15 @@ Upcoming concerts: 27
 
 ### Loppemarked
 
-- **Date:** 2026-02-28 at 10:00
-- **Status:** available
-- **Link:** [Loppemarked](https://kbhallen.dk/event/loppemarked_2026-02-28/)
-
-### K-POP INFINITY
-
-- **Date:** 2026-02-28 at 14:30
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
-
-### K-POP INFINITY
-
-- **Date:** 2026-02-28 at 18:30
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
-
-### August Høyen
-
-- **Date:** 2026-02-28 at 20:00
-- **Status:** available
-- **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
-
-### Loppemarked
-
 - **Date:** 2026-03-01 at 10:00
-- **Status:** available
-- **Link:** [Loppemarked](https://kbhallen.dk/event/loppemarked_2026-02-28/)
+- **Status:** few_tickets
+- **Link:** [Loppemarked](https://kbhallen.dk/event/loppemarked_2026-03-01/)
 
 ### Cannonball Festival 2026
 
 - **Date:** 2026-03-06 at 16:00
 - **Status:** few_tickets
 - **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-06/)
-
-### AIRTOX DOMINANCE 6.0
-
-- **Date:** 2026-03-06 at 20:00
-- **Status:** few_tickets
-- **Link:** [AIRTOX DOMINANCE 6.0](https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/)
 
 ### Cannonball Festival 2026
 
@@ -106,6 +76,30 @@ Upcoming concerts: 27
 - **Status:** available
 - **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
 
+### Loppemarked
+
+- **Date:** 2026-03-28 at 10:00
+- **Status:** few_tickets
+- **Link:** [Loppemarked](https://kbhallen.dk/event/loppemarked_2026-03-01/)
+
+### K-POP INFINITY
+
+- **Date:** 2026-03-28 at 14:30
+- **Status:** sold_out
+- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
+
+### K-POP INFINITY
+
+- **Date:** 2026-03-28 at 18:30
+- **Status:** sold_out
+- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
+
+### August Høyen
+
+- **Date:** 2026-03-28 at 20:00
+- **Status:** available
+- **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
+
 ### K-POP INFINITY
 
 - **Date:** 2026-03-29 at 11:00
@@ -149,6 +143,12 @@ Upcoming concerts: 27
 - **Date:** 2026-05-09 at 20:00
 - **Status:** available
 - **Link:** [Magic Men](https://kbhallen.dk/event/magic-men_2026-05-09/)
+
+### AIRTOX DOMINANCE 6.0
+
+- **Date:** 2026-06-06 at 20:00
+- **Status:** few_tickets
+- **Link:** [AIRTOX DOMINANCE 6.0](https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/)
 
 ## Pumpehuset
 
