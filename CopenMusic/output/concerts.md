@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-01T08:04:33.996801
+Last updated: 2026-03-02T08:11:15.320216
 
-Total concerts: 27
-Upcoming concerts: 27
+Total concerts: 25
+Upcoming concerts: 25
 
 ## K.B. Hallen
-
-### Loppemarked
-
-- **Date:** 2026-03-01 at 10:00
-- **Status:** few_tickets
-- **Link:** [Loppemarked](https://kbhallen.dk/event/loppemarked_2026-03-01/)
 
 ### Cannonball Festival 2026
 
@@ -54,7 +48,7 @@ Upcoming concerts: 27
 ### the Kid LAROI
 
 - **Date:** 2026-03-15 at 20:00
-- **Status:** available
+- **Status:** few_tickets
 - **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### Tyler Childers
@@ -75,12 +69,6 @@ Upcoming concerts: 27
 - **Date:** 2026-03-27 at 20:00
 - **Status:** available
 - **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
-
-### Loppemarked
-
-- **Date:** 2026-03-28 at 10:00
-- **Status:** few_tickets
-- **Link:** [Loppemarked](https://kbhallen.dk/event/loppemarked_2026-03-01/)
 
 ### K-POP INFINITY
 

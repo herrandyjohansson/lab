@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-03-01T08:04:33.996801",
+  "last_updated": "2026-03-02T08:11:15.320216",
   "metadata": {
-    "scraped_at": "2026-03-01T08:04:33.996801",
-    "duration_seconds": 7.554755,
+    "scraped_at": "2026-03-02T08:11:15.320216",
+    "duration_seconds": 7.804078,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 27,
-    "upcoming_concerts": 27,
+    "total_concerts": 25,
+    "upcoming_concerts": 25,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-loppemarked-2026-03-01",
-          "name": "Loppemarked",
-          "date": "2026-03-01",
-          "time": "10:00",
-          "status": "few_tickets",
-          "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Loppemarked",
-            "date": "2026-03-01",
-            "time": "10:00",
-            "status": "Få billetter",
-            "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-cannonball-festival-2026-2026-03-06",
           "name": "Cannonball Festival 2026",
@@ -179,7 +156,7 @@
           "name": "the Kid LAROI",
           "date": "2026-03-15",
           "time": "20:00",
-          "status": "available",
+          "status": "few_tickets",
           "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
           "support": "",
           "genre": "",
@@ -190,7 +167,7 @@
             "name": "the Kid LAROI",
             "date": "2026-03-15",
             "time": "20:00",
-            "status": "Tilgængelig",
+            "status": "Få billetter",
             "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
             "support": "",
             "genre": "",
@@ -261,29 +238,6 @@
             "time": "20:00",
             "status": "Tilgængelig",
             "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
-        {
-          "id": "kb_hallen-loppemarked-2026-03-28",
-          "name": "Loppemarked",
-          "date": "2026-03-28",
-          "time": "10:00",
-          "status": "few_tickets",
-          "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Loppemarked",
-            "date": "2026-03-28",
-            "time": "10:00",
-            "status": "Få billetter",
-            "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
             "support": "",
             "genre": "",
             "price": null
@@ -544,9 +498,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 23,
-        "scraped_at": "2026-03-01T08:04:33.997096",
-        "duration_seconds": 6.636863,
+        "total_concerts": 21,
+        "scraped_at": "2026-03-02T08:11:15.320540",
+        "duration_seconds": 6.989943,
         "status": "success"
       }
     },
@@ -648,36 +602,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-01T08:04:33.997615",
-        "duration_seconds": 7.553629,
+        "scraped_at": "2026-03-02T08:11:15.321085",
+        "duration_seconds": 7.80285,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-loppemarked-2026-03-01",
-      "name": "Loppemarked",
-      "date": "2026-03-01",
-      "time": "10:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Loppemarked",
-        "date": "2026-03-01",
-        "time": "10:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-cannonball-festival-2026-2026-03-06",
       "name": "Cannonball Festival 2026",
@@ -821,7 +752,7 @@
       "name": "the Kid LAROI",
       "date": "2026-03-15",
       "time": "20:00",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
       "support": "",
       "genre": "",
@@ -832,7 +763,7 @@
         "name": "the Kid LAROI",
         "date": "2026-03-15",
         "time": "20:00",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
         "support": "",
         "genre": "",
@@ -926,29 +857,6 @@
         "time": "20:00",
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-loppemarked-2026-03-28",
-      "name": "Loppemarked",
-      "date": "2026-03-28",
-      "time": "10:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Loppemarked",
-        "date": "2026-03-28",
-        "time": "10:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
         "support": "",
         "genre": "",
         "price": null
@@ -1279,29 +1187,6 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-loppemarked-2026-03-01",
-      "name": "Loppemarked",
-      "date": "2026-03-01",
-      "time": "10:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Loppemarked",
-        "date": "2026-03-01",
-        "time": "10:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-cannonball-festival-2026-2026-03-06",
       "name": "Cannonball Festival 2026",
       "date": "2026-03-06",
@@ -1444,7 +1329,7 @@
       "name": "the Kid LAROI",
       "date": "2026-03-15",
       "time": "20:00",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
       "support": "",
       "genre": "",
@@ -1455,7 +1340,7 @@
         "name": "the Kid LAROI",
         "date": "2026-03-15",
         "time": "20:00",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
         "support": "",
         "genre": "",
@@ -1549,29 +1434,6 @@
         "time": "20:00",
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-loppemarked-2026-03-28",
-      "name": "Loppemarked",
-      "date": "2026-03-28",
-      "time": "10:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Loppemarked",
-        "date": "2026-03-28",
-        "time": "10:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/loppemarked_2026-03-01/",
         "support": "",
         "genre": "",
         "price": null
