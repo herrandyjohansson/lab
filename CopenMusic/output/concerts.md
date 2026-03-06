@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-05T08:08:58.144289
+Last updated: 2026-03-06T08:07:20.390132
 
 Total concerts: 25
 Upcoming concerts: 25
@@ -22,7 +22,7 @@ Upcoming concerts: 25
 ### GIVĒON
 
 - **Date:** 2026-03-10 at 20:00
-- **Status:** few_tickets
+- **Status:** available
 - **Support:** Sasha Keable + Opening act: Baby Rose
 - **Link:** [GIVĒON](https://kbhallen.dk/event/giveon_2026-03-10/)
 

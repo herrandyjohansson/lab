@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-05T08:08:58.144289",
+  "last_updated": "2026-03-06T08:07:20.390132",
   "metadata": {
-    "scraped_at": "2026-03-05T08:08:58.144289",
-    "duration_seconds": 7.94562,
+    "scraped_at": "2026-03-06T08:07:20.390132",
+    "duration_seconds": 7.701509,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 25,
@@ -64,7 +64,7 @@
           "name": "GIVĒON",
           "date": "2026-03-10",
           "time": "20:00",
-          "status": "few_tickets",
+          "status": "available",
           "url": "https://kbhallen.dk/event/giveon_2026-03-10/",
           "support": "Sasha Keable + Opening act: Baby Rose",
           "genre": "",
@@ -75,7 +75,7 @@
             "name": "GIVĒON",
             "date": "2026-03-10",
             "time": "20:00",
-            "status": "Få billetter",
+            "status": "Tilgængelig",
             "url": "https://kbhallen.dk/event/giveon_2026-03-10/",
             "support": "Sasha Keable + Opening act: Baby Rose",
             "genre": "",
@@ -499,8 +499,8 @@
       ],
       "metadata": {
         "total_concerts": 21,
-        "scraped_at": "2026-03-05T08:08:58.144596",
-        "duration_seconds": 6.996793,
+        "scraped_at": "2026-03-06T08:07:20.390435",
+        "duration_seconds": 6.863755,
         "status": "success"
       }
     },
@@ -602,8 +602,8 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-05T08:08:58.145850",
-        "duration_seconds": 7.943775,
+        "scraped_at": "2026-03-06T08:07:20.391047",
+        "duration_seconds": 7.700217,
         "status": "success"
       }
     }
@@ -660,7 +660,7 @@
       "name": "GIVĒON",
       "date": "2026-03-10",
       "time": "20:00",
-      "status": "few_tickets",
+      "status": "available",
       "url": "https://kbhallen.dk/event/giveon_2026-03-10/",
       "support": "Sasha Keable + Opening act: Baby Rose",
       "genre": "",
@@ -671,7 +671,7 @@
         "name": "GIVĒON",
         "date": "2026-03-10",
         "time": "20:00",
-        "status": "Få billetter",
+        "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/giveon_2026-03-10/",
         "support": "Sasha Keable + Opening act: Baby Rose",
         "genre": "",
@@ -1237,7 +1237,7 @@
       "name": "GIVĒON",
       "date": "2026-03-10",
       "time": "20:00",
-      "status": "few_tickets",
+      "status": "available",
       "url": "https://kbhallen.dk/event/giveon_2026-03-10/",
       "support": "Sasha Keable + Opening act: Baby Rose",
       "genre": "",
@@ -1248,7 +1248,7 @@
         "name": "GIVĒON",
         "date": "2026-03-10",
         "time": "20:00",
-        "status": "Få billetter",
+        "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/giveon_2026-03-10/",
         "support": "Sasha Keable + Opening act: Baby Rose",
         "genre": "",
