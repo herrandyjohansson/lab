@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-06T08:07:20.390132
+Last updated: 2026-03-07T08:04:19.593931
 
 Total concerts: 25
 Upcoming concerts: 25
@@ -9,15 +9,9 @@ Upcoming concerts: 25
 
 ### Cannonball Festival 2026
 
-- **Date:** 2026-03-06 at 16:00
-- **Status:** few_tickets
-- **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-06/)
-
-### Cannonball Festival 2026
-
 - **Date:** 2026-03-07 at 16:00
 - **Status:** few_tickets
-- **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-06/)
+- **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/)
 
 ### GIVĒON
 
@@ -29,7 +23,7 @@ Upcoming concerts: 25
 ### Lamb Of God
 
 - **Date:** 2026-03-11 at 17:45
-- **Status:** available
+- **Status:** few_tickets
 - **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
 - **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
@@ -85,7 +79,7 @@ Upcoming concerts: 25
 ### August Høyen
 
 - **Date:** 2026-03-28 at 20:00
-- **Status:** available
+- **Status:** few_tickets
 - **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
 
 ### K-POP INFINITY
@@ -113,6 +107,12 @@ Upcoming concerts: 25
 - **Status:** waiting_list
 - **Support:** Pale Waves
 - **Link:** [Louis Tomlinson](https://kbhallen.dk/event/louis-tomlinson_2026-03-30/)
+
+### Cannonball Festival 2026
+
+- **Date:** 2026-04-06 at 16:00
+- **Status:** few_tickets
+- **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/)
 
 ### Big Thief
 
