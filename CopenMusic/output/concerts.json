@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-03-07T08:04:19.593931",
+  "last_updated": "2026-03-08T08:04:45.091199",
   "metadata": {
-    "scraped_at": "2026-03-07T08:04:19.593931",
-    "duration_seconds": 7.757308,
+    "scraped_at": "2026-03-08T08:04:45.091199",
+    "duration_seconds": 7.677585,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 25,
-    "upcoming_concerts": 25,
+    "total_concerts": 23,
+    "upcoming_concerts": 23,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-cannonball-festival-2026-2026-03-07",
-          "name": "Cannonball Festival 2026",
-          "date": "2026-03-07",
-          "time": "16:00",
-          "status": "few_tickets",
-          "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Cannonball Festival 2026",
-            "date": "2026-03-07",
-            "time": "16:00",
-            "status": "Få billetter",
-            "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-givēon-2026-03-10",
           "name": "GIVĒON",
@@ -87,7 +64,7 @@
           "name": "Hej Matematik",
           "date": "2026-03-13",
           "time": "20:00",
-          "status": "available",
+          "status": "few_tickets",
           "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
           "support": "",
           "genre": "",
@@ -98,7 +75,7 @@
             "name": "Hej Matematik",
             "date": "2026-03-13",
             "time": "20:00",
-            "status": "Tilgængelig",
+            "status": "Få billetter",
             "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
             "support": "",
             "genre": "",
@@ -382,29 +359,6 @@
           }
         },
         {
-          "id": "kb_hallen-cannonball-festival-2026-2026-04-06",
-          "name": "Cannonball Festival 2026",
-          "date": "2026-04-06",
-          "time": "16:00",
-          "status": "few_tickets",
-          "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Cannonball Festival 2026",
-            "date": "2026-04-06",
-            "time": "16:00",
-            "status": "Få billetter",
-            "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
-        {
           "id": "kb_hallen-big-thief-2026-04-11",
           "name": "Big Thief",
           "date": "2026-04-11",
@@ -498,9 +452,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 21,
-        "scraped_at": "2026-03-07T08:04:19.594241",
-        "duration_seconds": 6.988483,
+        "total_concerts": 19,
+        "scraped_at": "2026-03-08T08:04:45.091499",
+        "duration_seconds": 6.752919,
         "status": "success"
       }
     },
@@ -602,36 +556,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-07T08:04:19.594464",
-        "duration_seconds": 7.75637,
+        "scraped_at": "2026-03-08T08:04:45.092006",
+        "duration_seconds": 7.67644,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-cannonball-festival-2026-2026-03-07",
-      "name": "Cannonball Festival 2026",
-      "date": "2026-03-07",
-      "time": "16:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Cannonball Festival 2026",
-        "date": "2026-03-07",
-        "time": "16:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-givēon-2026-03-10",
       "name": "GIVĒON",
@@ -683,7 +614,7 @@
       "name": "Hej Matematik",
       "date": "2026-03-13",
       "time": "20:00",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
       "support": "",
       "genre": "",
@@ -694,7 +625,7 @@
         "name": "Hej Matematik",
         "date": "2026-03-13",
         "time": "20:00",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
         "support": "",
         "genre": "",
@@ -996,29 +927,6 @@
         "status": "Venteliste",
         "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
         "support": "Pale Waves",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-cannonball-festival-2026-2026-04-06",
-      "name": "Cannonball Festival 2026",
-      "date": "2026-04-06",
-      "time": "16:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Cannonball Festival 2026",
-        "date": "2026-04-06",
-        "time": "16:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-        "support": "",
         "genre": "",
         "price": null
       }
@@ -1187,29 +1095,6 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-cannonball-festival-2026-2026-03-07",
-      "name": "Cannonball Festival 2026",
-      "date": "2026-03-07",
-      "time": "16:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Cannonball Festival 2026",
-        "date": "2026-03-07",
-        "time": "16:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-givēon-2026-03-10",
       "name": "GIVĒON",
       "date": "2026-03-10",
@@ -1260,7 +1145,7 @@
       "name": "Hej Matematik",
       "date": "2026-03-13",
       "time": "20:00",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
       "support": "",
       "genre": "",
@@ -1271,7 +1156,7 @@
         "name": "Hej Matematik",
         "date": "2026-03-13",
         "time": "20:00",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
         "support": "",
         "genre": "",
@@ -1573,29 +1458,6 @@
         "status": "Venteliste",
         "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
         "support": "Pale Waves",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-cannonball-festival-2026-2026-04-06",
-      "name": "Cannonball Festival 2026",
-      "date": "2026-04-06",
-      "time": "16:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Cannonball Festival 2026",
-        "date": "2026-04-06",
-        "time": "16:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/",
-        "support": "",
         "genre": "",
         "price": null
       }

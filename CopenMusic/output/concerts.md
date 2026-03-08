@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-07T08:04:19.593931
+Last updated: 2026-03-08T08:04:45.091199
 
-Total concerts: 25
-Upcoming concerts: 25
+Total concerts: 23
+Upcoming concerts: 23
 
 ## K.B. Hallen
-
-### Cannonball Festival 2026
-
-- **Date:** 2026-03-07 at 16:00
-- **Status:** few_tickets
-- **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/)
 
 ### GIVĒON
 
@@ -30,7 +24,7 @@ Upcoming concerts: 25
 ### Hej Matematik
 
 - **Date:** 2026-03-13 at 20:00
-- **Status:** available
+- **Status:** few_tickets
 - **Link:** [Hej Matematik](https://kbhallen.dk/event/hej-matematik_2026-03-13/)
 
 ### Michael Learns to Rock
@@ -107,12 +101,6 @@ Upcoming concerts: 25
 - **Status:** waiting_list
 - **Support:** Pale Waves
 - **Link:** [Louis Tomlinson](https://kbhallen.dk/event/louis-tomlinson_2026-03-30/)
-
-### Cannonball Festival 2026
-
-- **Date:** 2026-04-06 at 16:00
-- **Status:** few_tickets
-- **Link:** [Cannonball Festival 2026](https://kbhallen.dk/event/cannonball-festival-2026_2026-03-07/)
 
 ### Big Thief
 
