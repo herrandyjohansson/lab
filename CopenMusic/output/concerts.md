@@ -1,30 +1,23 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-10T08:08:58.712288
+Last updated: 2026-03-11T08:09:32.539270
 
-Total concerts: 23
-Upcoming concerts: 23
+Total concerts: 22
+Upcoming concerts: 22
 
 ## K.B. Hallen
-
-### GIVĒON
-
-- **Date:** 2026-03-10 at 20:00
-- **Status:** available
-- **Support:** Sasha Keable + Opening act: Baby Rose
-- **Link:** [GIVĒON](https://kbhallen.dk/event/giveon_2026-03-10/)
 
 ### Lamb Of God
 
 - **Date:** 2026-03-11 at 17:45
-- **Status:** few_tickets
+- **Status:** available
 - **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
 - **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
 ### Hej Matematik
 
 - **Date:** 2026-03-13 at 20:00
-- **Status:** few_tickets
+- **Status:** available
 - **Link:** [Hej Matematik](https://kbhallen.dk/event/hej-matematik_2026-03-13/)
 
 ### Michael Learns to Rock
@@ -73,7 +66,7 @@ Upcoming concerts: 23
 ### August Høyen
 
 - **Date:** 2026-03-28 at 20:00
-- **Status:** few_tickets
+- **Status:** available
 - **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
 
 ### K-POP INFINITY
