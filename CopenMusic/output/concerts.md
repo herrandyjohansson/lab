@@ -1,18 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-11T08:09:32.539270
+Last updated: 2026-03-12T08:10:49.149622
 
 Total concerts: 22
 Upcoming concerts: 22
 
 ## K.B. Hallen
-
-### Lamb Of God
-
-- **Date:** 2026-03-11 at 17:45
-- **Status:** available
-- **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
-- **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
 ### Hej Matematik
 
@@ -94,6 +87,13 @@ Upcoming concerts: 22
 - **Status:** waiting_list
 - **Support:** Pale Waves
 - **Link:** [Louis Tomlinson](https://kbhallen.dk/event/louis-tomlinson_2026-03-30/)
+
+### Lamb Of God
+
+- **Date:** 2026-04-11 at 17:45
+- **Status:** available
+- **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
+- **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
 ### Big Thief
 

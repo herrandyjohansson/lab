@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-11T08:09:32.539270",
+  "last_updated": "2026-03-12T08:10:49.149622",
   "metadata": {
-    "scraped_at": "2026-03-11T08:09:32.539270",
-    "duration_seconds": 7.43278,
+    "scraped_at": "2026-03-12T08:10:49.149622",
+    "duration_seconds": 7.578035,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 22,
@@ -13,29 +13,6 @@
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-lamb-of-god-2026-03-11",
-          "name": "Lamb Of God",
-          "date": "2026-03-11",
-          "time": "17:45",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
-          "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Lamb Of God",
-            "date": "2026-03-11",
-            "time": "17:45",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
-            "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-hej-matematik-2026-03-13",
           "name": "Hej Matematik",
@@ -336,6 +313,29 @@
           }
         },
         {
+          "id": "kb_hallen-lamb-of-god-2026-04-11",
+          "name": "Lamb Of God",
+          "date": "2026-04-11",
+          "time": "17:45",
+          "status": "available",
+          "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
+          "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
+          "genre": "",
+          "price": null,
+          "venue": "kb_hallen",
+          "venue_name": "K.B. Hallen",
+          "raw_data": {
+            "name": "Lamb Of God",
+            "date": "2026-04-11",
+            "time": "17:45",
+            "status": "Tilgængelig",
+            "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
+            "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
           "id": "kb_hallen-big-thief-2026-04-11",
           "name": "Big Thief",
           "date": "2026-04-11",
@@ -430,8 +430,8 @@
       ],
       "metadata": {
         "total_concerts": 18,
-        "scraped_at": "2026-03-11T08:09:32.539576",
-        "duration_seconds": 6.839048,
+        "scraped_at": "2026-03-12T08:10:49.149978",
+        "duration_seconds": 6.72838,
         "status": "success"
       }
     },
@@ -533,36 +533,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-11T08:09:32.540742",
-        "duration_seconds": 7.430936,
+        "scraped_at": "2026-03-12T08:10:49.150529",
+        "duration_seconds": 7.576752,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-lamb-of-god-2026-03-11",
-      "name": "Lamb Of God",
-      "date": "2026-03-11",
-      "time": "17:45",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
-      "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Lamb Of God",
-        "date": "2026-03-11",
-        "time": "17:45",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
-        "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-hej-matematik-2026-03-13",
       "name": "Hej Matematik",
@@ -881,6 +858,29 @@
         "status": "Venteliste",
         "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
         "support": "Pale Waves",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-lamb-of-god-2026-04-11",
+      "name": "Lamb Of God",
+      "date": "2026-04-11",
+      "time": "17:45",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
+      "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "Lamb Of God",
+        "date": "2026-04-11",
+        "time": "17:45",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
+        "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
         "genre": "",
         "price": null
       }
@@ -1049,29 +1049,6 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-lamb-of-god-2026-03-11",
-      "name": "Lamb Of God",
-      "date": "2026-03-11",
-      "time": "17:45",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
-      "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Lamb Of God",
-        "date": "2026-03-11",
-        "time": "17:45",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
-        "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-hej-matematik-2026-03-13",
       "name": "Hej Matematik",
       "date": "2026-03-13",
@@ -1389,6 +1366,29 @@
         "status": "Venteliste",
         "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
         "support": "Pale Waves",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-lamb-of-god-2026-04-11",
+      "name": "Lamb Of God",
+      "date": "2026-04-11",
+      "time": "17:45",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
+      "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "Lamb Of God",
+        "date": "2026-04-11",
+        "time": "17:45",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
+        "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
         "genre": "",
         "price": null
       }
