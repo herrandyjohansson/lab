@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-12T08:10:49.149622",
+  "last_updated": "2026-03-13T08:10:13.929652",
   "metadata": {
-    "scraped_at": "2026-03-12T08:10:49.149622",
-    "duration_seconds": 7.578035,
+    "scraped_at": "2026-03-13T08:10:13.929652",
+    "duration_seconds": 8.032266,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 22,
@@ -430,8 +430,8 @@
       ],
       "metadata": {
         "total_concerts": 18,
-        "scraped_at": "2026-03-12T08:10:49.149978",
-        "duration_seconds": 6.72838,
+        "scraped_at": "2026-03-13T08:10:13.929951",
+        "duration_seconds": 7.046338,
         "status": "success"
       }
     },
@@ -533,8 +533,8 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-12T08:10:49.150529",
-        "duration_seconds": 7.576752,
+        "scraped_at": "2026-03-13T08:10:13.930378",
+        "duration_seconds": 8.031202,
         "status": "success"
       }
     }
