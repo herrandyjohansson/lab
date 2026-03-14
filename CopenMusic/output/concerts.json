@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-03-13T08:10:13.929652",
+  "last_updated": "2026-03-14T08:06:09.132875",
   "metadata": {
-    "scraped_at": "2026-03-13T08:10:13.929652",
-    "duration_seconds": 8.032266,
+    "scraped_at": "2026-03-14T08:06:09.132875",
+    "duration_seconds": 7.535539,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 22,
-    "upcoming_concerts": 22,
+    "total_concerts": 21,
+    "upcoming_concerts": 21,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-hej-matematik-2026-03-13",
-          "name": "Hej Matematik",
-          "date": "2026-03-13",
-          "time": "20:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Hej Matematik",
-            "date": "2026-03-13",
-            "time": "20:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-michael-learns-to-rock-2026-03-14",
           "name": "Michael Learns to Rock",
@@ -202,7 +179,7 @@
           "name": "August Høyen",
           "date": "2026-03-28",
           "time": "20:00",
-          "status": "available",
+          "status": "few_tickets",
           "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
           "support": "",
           "genre": "",
@@ -213,7 +190,7 @@
             "name": "August Høyen",
             "date": "2026-03-28",
             "time": "20:00",
-            "status": "Tilgængelig",
+            "status": "Få billetter",
             "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
             "support": "",
             "genre": "",
@@ -317,7 +294,7 @@
           "name": "Lamb Of God",
           "date": "2026-04-11",
           "time": "17:45",
-          "status": "available",
+          "status": "few_tickets",
           "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
           "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
           "genre": "",
@@ -328,7 +305,7 @@
             "name": "Lamb Of God",
             "date": "2026-04-11",
             "time": "17:45",
-            "status": "Tilgængelig",
+            "status": "Få billetter",
             "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
             "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
             "genre": "",
@@ -429,9 +406,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 18,
-        "scraped_at": "2026-03-13T08:10:13.929951",
-        "duration_seconds": 7.046338,
+        "total_concerts": 17,
+        "scraped_at": "2026-03-14T08:06:09.133204",
+        "duration_seconds": 6.644188,
         "status": "success"
       }
     },
@@ -533,36 +510,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-13T08:10:13.930378",
-        "duration_seconds": 8.031202,
+        "scraped_at": "2026-03-14T08:06:09.133570",
+        "duration_seconds": 7.53453,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-hej-matematik-2026-03-13",
-      "name": "Hej Matematik",
-      "date": "2026-03-13",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Hej Matematik",
-        "date": "2026-03-13",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-michael-learns-to-rock-2026-03-14",
       "name": "Michael Learns to Rock",
@@ -752,7 +706,7 @@
       "name": "August Høyen",
       "date": "2026-03-28",
       "time": "20:00",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
       "support": "",
       "genre": "",
@@ -763,7 +717,7 @@
         "name": "August Høyen",
         "date": "2026-03-28",
         "time": "20:00",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
         "support": "",
         "genre": "",
@@ -867,7 +821,7 @@
       "name": "Lamb Of God",
       "date": "2026-04-11",
       "time": "17:45",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
       "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
       "genre": "",
@@ -878,7 +832,7 @@
         "name": "Lamb Of God",
         "date": "2026-04-11",
         "time": "17:45",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
         "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
         "genre": "",
@@ -1049,29 +1003,6 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-hej-matematik-2026-03-13",
-      "name": "Hej Matematik",
-      "date": "2026-03-13",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Hej Matematik",
-        "date": "2026-03-13",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/hej-matematik_2026-03-13/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-michael-learns-to-rock-2026-03-14",
       "name": "Michael Learns to Rock",
       "date": "2026-03-14",
@@ -1260,7 +1191,7 @@
       "name": "August Høyen",
       "date": "2026-03-28",
       "time": "20:00",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
       "support": "",
       "genre": "",
@@ -1271,7 +1202,7 @@
         "name": "August Høyen",
         "date": "2026-03-28",
         "time": "20:00",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
         "support": "",
         "genre": "",
@@ -1375,7 +1306,7 @@
       "name": "Lamb Of God",
       "date": "2026-04-11",
       "time": "17:45",
-      "status": "available",
+      "status": "few_tickets",
       "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
       "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
       "genre": "",
@@ -1386,7 +1317,7 @@
         "name": "Lamb Of God",
         "date": "2026-04-11",
         "time": "17:45",
-        "status": "Tilgængelig",
+        "status": "Få billetter",
         "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
         "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
         "genre": "",
