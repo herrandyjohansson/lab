@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-14T08:06:09.132875
+Last updated: 2026-03-15T08:08:16.218352
 
-Total concerts: 21
-Upcoming concerts: 21
+Total concerts: 20
+Upcoming concerts: 20
 
 ## K.B. Hallen
-
-### Michael Learns to Rock
-
-- **Date:** 2026-03-14 at 20:00
-- **Status:** few_tickets
-- **Link:** [Michael Learns to Rock](https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/)
 
 ### the Kid LAROI
 

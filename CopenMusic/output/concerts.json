@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-03-14T08:06:09.132875",
+  "last_updated": "2026-03-15T08:08:16.218352",
   "metadata": {
-    "scraped_at": "2026-03-14T08:06:09.132875",
-    "duration_seconds": 7.535539,
+    "scraped_at": "2026-03-15T08:08:16.218352",
+    "duration_seconds": 7.976201,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 21,
-    "upcoming_concerts": 21,
+    "total_concerts": 20,
+    "upcoming_concerts": 20,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-michael-learns-to-rock-2026-03-14",
-          "name": "Michael Learns to Rock",
-          "date": "2026-03-14",
-          "time": "20:00",
-          "status": "few_tickets",
-          "url": "https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Michael Learns to Rock",
-            "date": "2026-03-14",
-            "time": "20:00",
-            "status": "Få billetter",
-            "url": "https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-the-kid-laroi-2026-03-15",
           "name": "the Kid LAROI",
@@ -406,9 +383,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 17,
-        "scraped_at": "2026-03-14T08:06:09.133204",
-        "duration_seconds": 6.644188,
+        "total_concerts": 16,
+        "scraped_at": "2026-03-15T08:08:16.218636",
+        "duration_seconds": 6.973839,
         "status": "success"
       }
     },
@@ -510,36 +487,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-14T08:06:09.133570",
-        "duration_seconds": 7.53453,
+        "scraped_at": "2026-03-15T08:08:16.219137",
+        "duration_seconds": 7.975032,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-michael-learns-to-rock-2026-03-14",
-      "name": "Michael Learns to Rock",
-      "date": "2026-03-14",
-      "time": "20:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Michael Learns to Rock",
-        "date": "2026-03-14",
-        "time": "20:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-the-kid-laroi-2026-03-15",
       "name": "the Kid LAROI",
@@ -1002,29 +956,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "kb_hallen-michael-learns-to-rock-2026-03-14",
-      "name": "Michael Learns to Rock",
-      "date": "2026-03-14",
-      "time": "20:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Michael Learns to Rock",
-        "date": "2026-03-14",
-        "time": "20:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/michael-learns-to-rock_2026-03-14/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-the-kid-laroi-2026-03-15",
       "name": "the Kid LAROI",
