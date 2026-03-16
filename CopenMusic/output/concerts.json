@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-15T08:08:16.218352",
+  "last_updated": "2026-03-16T08:20:29.791032",
   "metadata": {
-    "scraped_at": "2026-03-15T08:08:16.218352",
-    "duration_seconds": 7.976201,
+    "scraped_at": "2026-03-16T08:20:29.791032",
+    "duration_seconds": 7.957554,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 20,
@@ -13,29 +13,6 @@
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-the-kid-laroi-2026-03-15",
-          "name": "the Kid LAROI",
-          "date": "2026-03-15",
-          "time": "20:00",
-          "status": "few_tickets",
-          "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "the Kid LAROI",
-            "date": "2026-03-15",
-            "time": "20:00",
-            "status": "Få billetter",
-            "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-tyler-childers-2026-03-17",
           "name": "Tyler Childers",
@@ -313,6 +290,29 @@
           }
         },
         {
+          "id": "kb_hallen-the-kid-laroi-2026-04-15",
+          "name": "the Kid LAROI",
+          "date": "2026-04-15",
+          "time": "20:00",
+          "status": "few_tickets",
+          "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+          "support": "",
+          "genre": "",
+          "price": null,
+          "venue": "kb_hallen",
+          "venue_name": "K.B. Hallen",
+          "raw_data": {
+            "name": "the Kid LAROI",
+            "date": "2026-04-15",
+            "time": "20:00",
+            "status": "Få billetter",
+            "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+            "support": "",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
           "id": "kb_hallen-zar-paulo-2026-04-17",
           "name": "Zar Paulo",
           "date": "2026-04-17",
@@ -384,8 +384,8 @@
       ],
       "metadata": {
         "total_concerts": 16,
-        "scraped_at": "2026-03-15T08:08:16.218636",
-        "duration_seconds": 6.973839,
+        "scraped_at": "2026-03-16T08:20:29.791329",
+        "duration_seconds": 6.906538,
         "status": "success"
       }
     },
@@ -487,36 +487,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-15T08:08:16.219137",
-        "duration_seconds": 7.975032,
+        "scraped_at": "2026-03-16T08:20:29.792533",
+        "duration_seconds": 7.95571,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-the-kid-laroi-2026-03-15",
-      "name": "the Kid LAROI",
-      "date": "2026-03-15",
-      "time": "20:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "the Kid LAROI",
-        "date": "2026-03-15",
-        "time": "20:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-tyler-childers-2026-03-17",
       "name": "Tyler Childers",
@@ -834,6 +811,29 @@
         "time": "20:00",
         "status": "Venteliste",
         "url": "https://kbhallen.dk/event/big-thief_2026-04-11/",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-the-kid-laroi-2026-04-15",
+      "name": "the Kid LAROI",
+      "date": "2026-04-15",
+      "time": "20:00",
+      "status": "few_tickets",
+      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "the Kid LAROI",
+        "date": "2026-04-15",
+        "time": "20:00",
+        "status": "Få billetter",
+        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
         "support": "",
         "genre": "",
         "price": null
@@ -957,29 +957,6 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-the-kid-laroi-2026-03-15",
-      "name": "the Kid LAROI",
-      "date": "2026-03-15",
-      "time": "20:00",
-      "status": "few_tickets",
-      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "the Kid LAROI",
-        "date": "2026-03-15",
-        "time": "20:00",
-        "status": "Få billetter",
-        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-tyler-childers-2026-03-17",
       "name": "Tyler Childers",
       "date": "2026-03-17",
@@ -1296,6 +1273,29 @@
         "time": "20:00",
         "status": "Venteliste",
         "url": "https://kbhallen.dk/event/big-thief_2026-04-11/",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-the-kid-laroi-2026-04-15",
+      "name": "the Kid LAROI",
+      "date": "2026-04-15",
+      "time": "20:00",
+      "status": "few_tickets",
+      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "the Kid LAROI",
+        "date": "2026-04-15",
+        "time": "20:00",
+        "status": "Få billetter",
+        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
         "support": "",
         "genre": "",
         "price": null

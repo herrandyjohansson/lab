@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-15T08:08:16.218352
+Last updated: 2026-03-16T08:20:29.791032
 
 Total concerts: 20
 Upcoming concerts: 20
 
 ## K.B. Hallen
-
-### the Kid LAROI
-
-- **Date:** 2026-03-15 at 20:00
-- **Status:** few_tickets
-- **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### Tyler Childers
 
@@ -88,6 +82,12 @@ Upcoming concerts: 20
 - **Date:** 2026-04-11 at 20:00
 - **Status:** waiting_list
 - **Link:** [Big Thief](https://kbhallen.dk/event/big-thief_2026-04-11/)
+
+### the Kid LAROI
+
+- **Date:** 2026-04-15 at 20:00
+- **Status:** few_tickets
+- **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### Zar Paulo
 
