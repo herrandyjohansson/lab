@@ -1,18 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-17T08:13:37.967790
+Last updated: 2026-03-18T08:12:27.226305
 
-Total concerts: 20
-Upcoming concerts: 20
+Total concerts: 19
+Upcoming concerts: 19
 
 ## K.B. Hallen
-
-### Tyler Childers
-
-- **Date:** 2026-03-17 at 20:00
-- **Status:** sold_out
-- **Support:** Molly Tuttle
-- **Link:** [Tyler Childers](https://kbhallen.dk/event/tyler-childers_2026-03-17/)
 
 ### Avatar: The Last Airbender in Concert
 
@@ -41,7 +34,7 @@ Upcoming concerts: 20
 ### August Høyen
 
 - **Date:** 2026-03-28 at 20:00
-- **Status:** few_tickets
+- **Status:** sold_out
 - **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
 
 ### K-POP INFINITY
@@ -73,7 +66,7 @@ Upcoming concerts: 20
 ### Lamb Of God
 
 - **Date:** 2026-04-11 at 17:45
-- **Status:** few_tickets
+- **Status:** sold_out
 - **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
 - **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
@@ -86,7 +79,7 @@ Upcoming concerts: 20
 ### the Kid LAROI
 
 - **Date:** 2026-04-15 at 20:00
-- **Status:** few_tickets
+- **Status:** sold_out
 - **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### Zar Paulo
