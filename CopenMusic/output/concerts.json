@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-18T08:12:27.226305",
+  "last_updated": "2026-03-19T08:11:14.002273",
   "metadata": {
-    "scraped_at": "2026-03-18T08:12:27.226305",
-    "duration_seconds": 7.770638,
+    "scraped_at": "2026-03-19T08:11:14.002273",
+    "duration_seconds": 8.210231,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 19,
@@ -340,7 +340,7 @@
           "name": "AIRTOX DOMINANCE 6.0",
           "date": "2026-06-06",
           "time": "20:00",
-          "status": "few_tickets",
+          "status": "available",
           "url": "https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/",
           "support": "",
           "genre": "",
@@ -351,7 +351,7 @@
             "name": "AIRTOX DOMINANCE 6.0",
             "date": "2026-06-06",
             "time": "20:00",
-            "status": "Få billetter",
+            "status": "Tilgængelig",
             "url": "https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/",
             "support": "",
             "genre": "",
@@ -361,8 +361,8 @@
       ],
       "metadata": {
         "total_concerts": 15,
-        "scraped_at": "2026-03-18T08:12:27.226592",
-        "duration_seconds": 6.833671,
+        "scraped_at": "2026-03-19T08:11:14.002571",
+        "duration_seconds": 6.999637,
         "status": "success"
       }
     },
@@ -464,8 +464,8 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-18T08:12:27.227139",
-        "duration_seconds": 7.769486,
+        "scraped_at": "2026-03-19T08:11:14.003022",
+        "duration_seconds": 8.209157,
         "status": "success"
       }
     }
@@ -867,7 +867,7 @@
       "name": "AIRTOX DOMINANCE 6.0",
       "date": "2026-06-06",
       "time": "20:00",
-      "status": "few_tickets",
+      "status": "available",
       "url": "https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/",
       "support": "",
       "genre": "",
@@ -878,7 +878,7 @@
         "name": "AIRTOX DOMINANCE 6.0",
         "date": "2026-06-06",
         "time": "20:00",
-        "status": "Få billetter",
+        "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/",
         "support": "",
         "genre": "",
@@ -1306,7 +1306,7 @@
       "name": "AIRTOX DOMINANCE 6.0",
       "date": "2026-06-06",
       "time": "20:00",
-      "status": "few_tickets",
+      "status": "available",
       "url": "https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/",
       "support": "",
       "genre": "",
@@ -1317,7 +1317,7 @@
         "name": "AIRTOX DOMINANCE 6.0",
         "date": "2026-06-06",
         "time": "20:00",
-        "status": "Få billetter",
+        "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/",
         "support": "",
         "genre": "",

@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-18T08:12:27.226305
+Last updated: 2026-03-19T08:11:14.002273
 
 Total concerts: 19
 Upcoming concerts: 19
@@ -97,7 +97,7 @@ Upcoming concerts: 19
 ### AIRTOX DOMINANCE 6.0
 
 - **Date:** 2026-06-06 at 20:00
-- **Status:** few_tickets
+- **Status:** available
 - **Link:** [AIRTOX DOMINANCE 6.0](https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/)
 
 ## Pumpehuset
