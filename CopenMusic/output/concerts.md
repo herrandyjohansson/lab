@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-22T08:05:49.885688
+Last updated: 2026-03-23T08:17:10.689867
 
-Total concerts: 19
-Upcoming concerts: 19
+Total concerts: 18
+Upcoming concerts: 18
 
 ## K.B. Hallen
-
-### Avatar: The Last Airbender in Concert
-
-- **Date:** 2026-03-22 at 20:00
-- **Status:** sold_out
-- **Link:** [Avatar: The Last Airbender in Concert](https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/)
 
 ### Joe Bonamassa
 

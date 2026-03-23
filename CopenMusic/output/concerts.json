@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-03-22T08:05:49.885688",
+  "last_updated": "2026-03-23T08:17:10.689867",
   "metadata": {
-    "scraped_at": "2026-03-22T08:05:49.885688",
-    "duration_seconds": 7.698639,
+    "scraped_at": "2026-03-23T08:17:10.689867",
+    "duration_seconds": 7.913782,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 19,
-    "upcoming_concerts": 19,
+    "total_concerts": 18,
+    "upcoming_concerts": 18,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-avatar:-the-last-airbender-in-concert-2026-03-22",
-          "name": "Avatar: The Last Airbender in Concert",
-          "date": "2026-03-22",
-          "time": "20:00",
-          "status": "sold_out",
-          "url": "https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Avatar: The Last Airbender in Concert",
-            "date": "2026-03-22",
-            "time": "20:00",
-            "status": "Udsolgt",
-            "url": "https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-joe-bonamassa-2026-03-27",
           "name": "Joe Bonamassa",
@@ -360,9 +337,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 15,
-        "scraped_at": "2026-03-22T08:05:49.885990",
-        "duration_seconds": 6.718097,
+        "total_concerts": 14,
+        "scraped_at": "2026-03-23T08:17:10.690167",
+        "duration_seconds": 7.057506,
         "status": "success"
       }
     },
@@ -464,36 +441,13 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-22T08:05:49.886509",
-        "duration_seconds": 7.697518,
+        "scraped_at": "2026-03-23T08:17:10.690686",
+        "duration_seconds": 7.912602,
         "status": "success"
       }
     }
   },
   "all_concerts": [
-    {
-      "id": "kb_hallen-avatar:-the-last-airbender-in-concert-2026-03-22",
-      "name": "Avatar: The Last Airbender in Concert",
-      "date": "2026-03-22",
-      "time": "20:00",
-      "status": "sold_out",
-      "url": "https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Avatar: The Last Airbender in Concert",
-        "date": "2026-03-22",
-        "time": "20:00",
-        "status": "Udsolgt",
-        "url": "https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "pumpehuset-27.-mar-2026-2026-03-27",
       "name": "27. mar 2026",
@@ -910,29 +864,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "kb_hallen-avatar:-the-last-airbender-in-concert-2026-03-22",
-      "name": "Avatar: The Last Airbender in Concert",
-      "date": "2026-03-22",
-      "time": "20:00",
-      "status": "sold_out",
-      "url": "https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Avatar: The Last Airbender in Concert",
-        "date": "2026-03-22",
-        "time": "20:00",
-        "status": "Udsolgt",
-        "url": "https://kbhallen.dk/event/avatar-the-last-airbender-in-concert_2026-03-22/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "pumpehuset-27.-mar-2026-2026-03-27",
       "name": "27. mar 2026",
