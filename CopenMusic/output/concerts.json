@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-03-27T08:14:03.140025",
+  "last_updated": "2026-03-28T08:10:05.811563",
   "metadata": {
-    "scraped_at": "2026-03-27T08:14:03.140025",
-    "duration_seconds": 8.36439,
+    "scraped_at": "2026-03-28T08:10:05.811563",
+    "duration_seconds": 7.822976,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 18,
-    "upcoming_concerts": 18,
+    "upcoming_concerts": 17,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-joe-bonamassa-2026-03-27",
-          "name": "Joe Bonamassa",
-          "date": "2026-03-27",
-          "time": "20:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Joe Bonamassa",
-            "date": "2026-03-27",
-            "time": "20:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-k-pop-infinity-2026-03-28",
           "name": "K-POP INFINITY",
@@ -290,6 +267,29 @@
           }
         },
         {
+          "id": "kb_hallen-joe-bonamassa-2026-04-27",
+          "name": "Joe Bonamassa",
+          "date": "2026-04-27",
+          "time": "20:00",
+          "status": "available",
+          "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
+          "support": "",
+          "genre": "",
+          "price": null,
+          "venue": "kb_hallen",
+          "venue_name": "K.B. Hallen",
+          "raw_data": {
+            "name": "Joe Bonamassa",
+            "date": "2026-04-27",
+            "time": "20:00",
+            "status": "Tilgængelig",
+            "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
+            "support": "",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
           "id": "kb_hallen-magic-men-2026-05-09",
           "name": "Magic Men",
           "date": "2026-05-09",
@@ -338,8 +338,8 @@
       ],
       "metadata": {
         "total_concerts": 14,
-        "scraped_at": "2026-03-27T08:14:03.140389",
-        "duration_seconds": 7.026293,
+        "scraped_at": "2026-03-28T08:10:05.811866",
+        "duration_seconds": 6.978907,
         "status": "success"
       }
     },
@@ -441,8 +441,8 @@
       ],
       "metadata": {
         "total_concerts": 4,
-        "scraped_at": "2026-03-27T08:14:03.140784",
-        "duration_seconds": 8.36327,
+        "scraped_at": "2026-03-28T08:10:05.812265",
+        "duration_seconds": 7.821936,
         "status": "success"
       }
     }
@@ -466,29 +466,6 @@
         "time": "19:00",
         "status": "Tilgængelig",
         "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-joe-bonamassa-2026-03-27",
-      "name": "Joe Bonamassa",
-      "date": "2026-03-27",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Joe Bonamassa",
-        "date": "2026-03-27",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
         "support": "",
         "genre": "",
         "price": null
@@ -765,6 +742,29 @@
         "time": "20:00",
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-joe-bonamassa-2026-04-27",
+      "name": "Joe Bonamassa",
+      "date": "2026-04-27",
+      "time": "20:00",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "Joe Bonamassa",
+        "date": "2026-04-27",
+        "time": "20:00",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
         "support": "",
         "genre": "",
         "price": null
@@ -865,52 +865,6 @@
   ],
   "upcoming": [
     {
-      "id": "pumpehuset-27.-mar-2026-2026-03-27",
-      "name": "27. mar 2026",
-      "date": "2026-03-27",
-      "time": "19:00",
-      "status": "available",
-      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "pumpehuset",
-      "venue_name": "Pumpehuset",
-      "raw_data": {
-        "name": "27. mar 2026",
-        "date": "2026-03-27",
-        "time": "19:00",
-        "status": "Tilgængelig",
-        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-joe-bonamassa-2026-03-27",
-      "name": "Joe Bonamassa",
-      "date": "2026-03-27",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Joe Bonamassa",
-        "date": "2026-03-27",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-k-pop-infinity-2026-03-28",
       "name": "K-POP INFINITY",
       "date": "2026-03-28",
@@ -1181,6 +1135,29 @@
         "time": "20:00",
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-joe-bonamassa-2026-04-27",
+      "name": "Joe Bonamassa",
+      "date": "2026-04-27",
+      "time": "20:00",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "Joe Bonamassa",
+        "date": "2026-04-27",
+        "time": "20:00",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
         "support": "",
         "genre": "",
         "price": null

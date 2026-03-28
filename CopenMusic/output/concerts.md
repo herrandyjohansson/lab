@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-27T08:14:03.140025
+Last updated: 2026-03-28T08:10:05.811563
 
 Total concerts: 18
-Upcoming concerts: 18
+Upcoming concerts: 17
 
 ## K.B. Hallen
-
-### Joe Bonamassa
-
-- **Date:** 2026-03-27 at 20:00
-- **Status:** available
-- **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
 
 ### K-POP INFINITY
 
@@ -81,6 +75,12 @@ Upcoming concerts: 18
 - **Date:** 2026-04-17 at 20:00
 - **Status:** available
 - **Link:** [Zar Paulo](https://kbhallen.dk/event/zar-paulo_2026-04-17/)
+
+### Joe Bonamassa
+
+- **Date:** 2026-04-27 at 20:00
+- **Status:** available
+- **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
 
 ### Magic Men
 
