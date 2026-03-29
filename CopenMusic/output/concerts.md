@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-28T08:10:05.811563
+Last updated: 2026-03-29T08:09:51.547331
 
 Total concerts: 18
 Upcoming concerts: 17
@@ -9,33 +9,15 @@ Upcoming concerts: 17
 
 ### K-POP INFINITY
 
-- **Date:** 2026-03-28 at 14:30
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
-
-### K-POP INFINITY
-
-- **Date:** 2026-03-28 at 18:30
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
-
-### August Høyen
-
-- **Date:** 2026-03-28 at 20:00
-- **Status:** sold_out
-- **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
-
-### K-POP INFINITY
-
 - **Date:** 2026-03-29 at 11:00
 - **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
+- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
 
 ### K-POP INFINITY
 
 - **Date:** 2026-03-29 at 15:00
 - **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-28_11/)
+- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
 
 ### Dimmu Borgir & Behemoth
 
@@ -81,6 +63,24 @@ Upcoming concerts: 17
 - **Date:** 2026-04-27 at 20:00
 - **Status:** available
 - **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
+
+### K-POP INFINITY
+
+- **Date:** 2026-04-28 at 14:30
+- **Status:** sold_out
+- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
+
+### K-POP INFINITY
+
+- **Date:** 2026-04-28 at 18:30
+- **Status:** sold_out
+- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
+
+### August Høyen
+
+- **Date:** 2026-04-28 at 20:00
+- **Status:** sold_out
+- **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
 
 ### Magic Men
 
