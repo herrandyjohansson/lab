@@ -1,23 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-29T08:09:51.547331
+Last updated: 2026-03-30T08:29:58.572430
 
-Total concerts: 18
-Upcoming concerts: 17
+Total concerts: 14
+Upcoming concerts: 13
 
 ## K.B. Hallen
-
-### K-POP INFINITY
-
-- **Date:** 2026-03-29 at 11:00
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
-
-### K-POP INFINITY
-
-- **Date:** 2026-03-29 at 15:00
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
 
 ### Dimmu Borgir & Behemoth
 
@@ -29,27 +17,27 @@ Upcoming concerts: 17
 ### Louis Tomlinson
 
 - **Date:** 2026-03-30 at 20:00
-- **Status:** waiting_list
+- **Status:** available
 - **Support:** Pale Waves
 - **Link:** [Louis Tomlinson](https://kbhallen.dk/event/louis-tomlinson_2026-03-30/)
 
 ### Lamb Of God
 
 - **Date:** 2026-04-11 at 17:45
-- **Status:** sold_out
+- **Status:** available
 - **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
 - **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
 ### Big Thief
 
 - **Date:** 2026-04-11 at 20:00
-- **Status:** waiting_list
+- **Status:** available
 - **Link:** [Big Thief](https://kbhallen.dk/event/big-thief_2026-04-11/)
 
 ### the Kid LAROI
 
 - **Date:** 2026-04-15 at 20:00
-- **Status:** sold_out
+- **Status:** available
 - **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### Zar Paulo
@@ -64,22 +52,10 @@ Upcoming concerts: 17
 - **Status:** available
 - **Link:** [Joe Bonamassa](https://kbhallen.dk/event/joe-bonamassa_2026-10-27/)
 
-### K-POP INFINITY
-
-- **Date:** 2026-04-28 at 14:30
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
-
-### K-POP INFINITY
-
-- **Date:** 2026-04-28 at 18:30
-- **Status:** sold_out
-- **Link:** [K-POP INFINITY](https://kbhallen.dk/event/k-pop-infinity_2026-03-29_5/)
-
 ### August Høyen
 
 - **Date:** 2026-04-28 at 20:00
-- **Status:** sold_out
+- **Status:** available
 - **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
 
 ### Magic Men
