@@ -1,64 +1,18 @@
 {
-  "last_updated": "2026-03-30T08:29:58.572430",
+  "last_updated": "2026-03-31T08:21:10.406414",
   "metadata": {
-    "scraped_at": "2026-03-30T08:29:58.572430",
-    "duration_seconds": 7.998357,
+    "scraped_at": "2026-03-31T08:21:10.406414",
+    "duration_seconds": 7.725491,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 14,
-    "upcoming_concerts": 13,
+    "total_concerts": 15,
+    "upcoming_concerts": 15,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-dimmu-borgir-&-behemoth-2026-03-30",
-          "name": "Dimmu Borgir & Behemoth",
-          "date": "2026-03-30",
-          "time": "19:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-          "support": "Dark Funaral",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Dimmu Borgir & Behemoth",
-            "date": "2026-03-30",
-            "time": "19:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-            "support": "Dark Funaral",
-            "genre": "",
-            "price": null
-          }
-        },
-        {
-          "id": "kb_hallen-louis-tomlinson-2026-03-30",
-          "name": "Louis Tomlinson",
-          "date": "2026-03-30",
-          "time": "20:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
-          "support": "Pale Waves",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Louis Tomlinson",
-            "date": "2026-03-30",
-            "time": "20:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
-            "support": "Pale Waves",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-lamb-of-god-2026-04-11",
           "name": "Lamb Of God",
@@ -198,6 +152,29 @@
           }
         },
         {
+          "id": "kb_hallen-dimmu-borgir-&-behemoth-2026-04-30",
+          "name": "Dimmu Borgir & Behemoth",
+          "date": "2026-04-30",
+          "time": "19:00",
+          "status": "available",
+          "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+          "support": "Dark Funaral",
+          "genre": "",
+          "price": null,
+          "venue": "kb_hallen",
+          "venue_name": "K.B. Hallen",
+          "raw_data": {
+            "name": "Dimmu Borgir & Behemoth",
+            "date": "2026-04-30",
+            "time": "19:00",
+            "status": "Tilgængelig",
+            "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+            "support": "Dark Funaral",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
           "id": "kb_hallen-magic-men-2026-05-09",
           "name": "Magic Men",
           "date": "2026-05-09",
@@ -245,9 +222,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 10,
-        "scraped_at": "2026-03-30T08:29:58.572725",
-        "duration_seconds": 7.026497,
+        "total_concerts": 9,
+        "scraped_at": "2026-03-31T08:21:10.406755",
+        "duration_seconds": 6.729586,
         "status": "success"
       }
     },
@@ -255,9 +232,9 @@
       "venue_name": "Pumpehuset",
       "concerts": [
         {
-          "id": "pumpehuset-27.-mar-2026-2026-03-27",
-          "name": "27. mar 2026",
-          "date": "2026-03-27",
+          "id": "pumpehuset-3.-apr-2026-2026-04-03",
+          "name": "3. apr 2026",
+          "date": "2026-04-03",
           "time": "19:00",
           "status": "available",
           "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -267,8 +244,8 @@
           "venue": "pumpehuset",
           "venue_name": "Pumpehuset",
           "raw_data": {
-            "name": "27. mar 2026",
-            "date": "2026-03-27",
+            "name": "3. apr 2026",
+            "date": "2026-04-03",
             "time": "19:00",
             "status": "Tilgængelig",
             "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -301,6 +278,29 @@
           }
         },
         {
+          "id": "pumpehuset-13.-apr-2026-2026-04-13",
+          "name": "13. apr 2026",
+          "date": "2026-04-13",
+          "time": "19:00",
+          "status": "available",
+          "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+          "support": "",
+          "genre": "",
+          "price": null,
+          "venue": "pumpehuset",
+          "venue_name": "Pumpehuset",
+          "raw_data": {
+            "name": "13. apr 2026",
+            "date": "2026-04-13",
+            "time": "19:00",
+            "status": "Tilgængelig",
+            "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+            "support": "",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
           "id": "pumpehuset-25.-maj-2026-2026-05-25",
           "name": "25. maj 2026",
           "date": "2026-05-25",
@@ -324,9 +324,9 @@
           }
         },
         {
-          "id": "pumpehuset-19.-sep-2026-2026-09-19",
-          "name": "19. sep 2026",
-          "date": "2026-09-19",
+          "id": "pumpehuset-18.-jul-2026-2026-07-18",
+          "name": "18. jul 2026",
+          "date": "2026-07-18",
           "time": "19:00",
           "status": "available",
           "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -336,8 +336,31 @@
           "venue": "pumpehuset",
           "venue_name": "Pumpehuset",
           "raw_data": {
-            "name": "19. sep 2026",
-            "date": "2026-09-19",
+            "name": "18. jul 2026",
+            "date": "2026-07-18",
+            "time": "19:00",
+            "status": "Tilgængelig",
+            "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+            "support": "",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
+          "id": "pumpehuset-3.-sep-2026-2026-09-03",
+          "name": "3. sep 2026",
+          "date": "2026-09-03",
+          "time": "19:00",
+          "status": "available",
+          "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+          "support": "",
+          "genre": "",
+          "price": null,
+          "venue": "pumpehuset",
+          "venue_name": "Pumpehuset",
+          "raw_data": {
+            "name": "3. sep 2026",
+            "date": "2026-09-03",
             "time": "19:00",
             "status": "Tilgængelig",
             "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -348,18 +371,18 @@
         }
       ],
       "metadata": {
-        "total_concerts": 4,
-        "scraped_at": "2026-03-30T08:29:58.573272",
-        "duration_seconds": 7.997183,
+        "total_concerts": 6,
+        "scraped_at": "2026-03-31T08:21:10.407338",
+        "duration_seconds": 7.724156,
         "status": "success"
       }
     }
   },
   "all_concerts": [
     {
-      "id": "pumpehuset-27.-mar-2026-2026-03-27",
-      "name": "27. mar 2026",
-      "date": "2026-03-27",
+      "id": "pumpehuset-3.-apr-2026-2026-04-03",
+      "name": "3. apr 2026",
+      "date": "2026-04-03",
       "time": "19:00",
       "status": "available",
       "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -369,58 +392,12 @@
       "venue": "pumpehuset",
       "venue_name": "Pumpehuset",
       "raw_data": {
-        "name": "27. mar 2026",
-        "date": "2026-03-27",
+        "name": "3. apr 2026",
+        "date": "2026-04-03",
         "time": "19:00",
         "status": "Tilgængelig",
         "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
         "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-dimmu-borgir-&-behemoth-2026-03-30",
-      "name": "Dimmu Borgir & Behemoth",
-      "date": "2026-03-30",
-      "time": "19:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-      "support": "Dark Funaral",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Dimmu Borgir & Behemoth",
-        "date": "2026-03-30",
-        "time": "19:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-        "support": "Dark Funaral",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-louis-tomlinson-2026-03-30",
-      "name": "Louis Tomlinson",
-      "date": "2026-03-30",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
-      "support": "Pale Waves",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Louis Tomlinson",
-        "date": "2026-03-30",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
-        "support": "Pale Waves",
         "genre": "",
         "price": null
       }
@@ -489,6 +466,29 @@
         "time": "20:00",
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/big-thief_2026-04-11/",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "pumpehuset-13.-apr-2026-2026-04-13",
+      "name": "13. apr 2026",
+      "date": "2026-04-13",
+      "time": "19:00",
+      "status": "available",
+      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "pumpehuset",
+      "venue_name": "Pumpehuset",
+      "raw_data": {
+        "name": "13. apr 2026",
+        "date": "2026-04-13",
+        "time": "19:00",
+        "status": "Tilgængelig",
+        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
         "support": "",
         "genre": "",
         "price": null
@@ -587,6 +587,29 @@
       }
     },
     {
+      "id": "kb_hallen-dimmu-borgir-&-behemoth-2026-04-30",
+      "name": "Dimmu Borgir & Behemoth",
+      "date": "2026-04-30",
+      "time": "19:00",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+      "support": "Dark Funaral",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "Dimmu Borgir & Behemoth",
+        "date": "2026-04-30",
+        "time": "19:00",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+        "support": "Dark Funaral",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
       "id": "kb_hallen-magic-men-2026-05-09",
       "name": "Magic Men",
       "date": "2026-05-09",
@@ -656,9 +679,9 @@
       }
     },
     {
-      "id": "pumpehuset-19.-sep-2026-2026-09-19",
-      "name": "19. sep 2026",
-      "date": "2026-09-19",
+      "id": "pumpehuset-18.-jul-2026-2026-07-18",
+      "name": "18. jul 2026",
+      "date": "2026-07-18",
       "time": "19:00",
       "status": "available",
       "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -668,8 +691,31 @@
       "venue": "pumpehuset",
       "venue_name": "Pumpehuset",
       "raw_data": {
-        "name": "19. sep 2026",
-        "date": "2026-09-19",
+        "name": "18. jul 2026",
+        "date": "2026-07-18",
+        "time": "19:00",
+        "status": "Tilgængelig",
+        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "pumpehuset-3.-sep-2026-2026-09-03",
+      "name": "3. sep 2026",
+      "date": "2026-09-03",
+      "time": "19:00",
+      "status": "available",
+      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "pumpehuset",
+      "venue_name": "Pumpehuset",
+      "raw_data": {
+        "name": "3. sep 2026",
+        "date": "2026-09-03",
         "time": "19:00",
         "status": "Tilgængelig",
         "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -681,47 +727,24 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-dimmu-borgir-&-behemoth-2026-03-30",
-      "name": "Dimmu Borgir & Behemoth",
-      "date": "2026-03-30",
+      "id": "pumpehuset-3.-apr-2026-2026-04-03",
+      "name": "3. apr 2026",
+      "date": "2026-04-03",
       "time": "19:00",
       "status": "available",
-      "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-      "support": "Dark Funaral",
+      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+      "support": "",
       "genre": "",
       "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
+      "venue": "pumpehuset",
+      "venue_name": "Pumpehuset",
       "raw_data": {
-        "name": "Dimmu Borgir & Behemoth",
-        "date": "2026-03-30",
+        "name": "3. apr 2026",
+        "date": "2026-04-03",
         "time": "19:00",
         "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-        "support": "Dark Funaral",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-louis-tomlinson-2026-03-30",
-      "name": "Louis Tomlinson",
-      "date": "2026-03-30",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
-      "support": "Pale Waves",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Louis Tomlinson",
-        "date": "2026-03-30",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/louis-tomlinson_2026-03-30/",
-        "support": "Pale Waves",
+        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+        "support": "",
         "genre": "",
         "price": null
       }
@@ -790,6 +813,29 @@
         "time": "20:00",
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/big-thief_2026-04-11/",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "pumpehuset-13.-apr-2026-2026-04-13",
+      "name": "13. apr 2026",
+      "date": "2026-04-13",
+      "time": "19:00",
+      "status": "available",
+      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "pumpehuset",
+      "venue_name": "Pumpehuset",
+      "raw_data": {
+        "name": "13. apr 2026",
+        "date": "2026-04-13",
+        "time": "19:00",
+        "status": "Tilgængelig",
+        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
         "support": "",
         "genre": "",
         "price": null
@@ -888,6 +934,29 @@
       }
     },
     {
+      "id": "kb_hallen-dimmu-borgir-&-behemoth-2026-04-30",
+      "name": "Dimmu Borgir & Behemoth",
+      "date": "2026-04-30",
+      "time": "19:00",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+      "support": "Dark Funaral",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "Dimmu Borgir & Behemoth",
+        "date": "2026-04-30",
+        "time": "19:00",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+        "support": "Dark Funaral",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
       "id": "kb_hallen-magic-men-2026-05-09",
       "name": "Magic Men",
       "date": "2026-05-09",
@@ -957,9 +1026,9 @@
       }
     },
     {
-      "id": "pumpehuset-19.-sep-2026-2026-09-19",
-      "name": "19. sep 2026",
-      "date": "2026-09-19",
+      "id": "pumpehuset-18.-jul-2026-2026-07-18",
+      "name": "18. jul 2026",
+      "date": "2026-07-18",
       "time": "19:00",
       "status": "available",
       "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
@@ -969,8 +1038,31 @@
       "venue": "pumpehuset",
       "venue_name": "Pumpehuset",
       "raw_data": {
-        "name": "19. sep 2026",
-        "date": "2026-09-19",
+        "name": "18. jul 2026",
+        "date": "2026-07-18",
+        "time": "19:00",
+        "status": "Tilgængelig",
+        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+        "support": "",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "pumpehuset-3.-sep-2026-2026-09-03",
+      "name": "3. sep 2026",
+      "date": "2026-09-03",
+      "time": "19:00",
+      "status": "available",
+      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "pumpehuset",
+      "venue_name": "Pumpehuset",
+      "raw_data": {
+        "name": "3. sep 2026",
+        "date": "2026-09-03",
         "time": "19:00",
         "status": "Tilgængelig",
         "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",

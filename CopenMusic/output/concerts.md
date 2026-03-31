@@ -1,25 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-03-30T08:29:58.572430
+Last updated: 2026-03-31T08:21:10.406414
 
-Total concerts: 14
-Upcoming concerts: 13
+Total concerts: 15
+Upcoming concerts: 15
 
 ## K.B. Hallen
-
-### Dimmu Borgir & Behemoth
-
-- **Date:** 2026-03-30 at 19:00
-- **Status:** available
-- **Support:** Dark Funaral
-- **Link:** [Dimmu Borgir & Behemoth](https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/)
-
-### Louis Tomlinson
-
-- **Date:** 2026-03-30 at 20:00
-- **Status:** available
-- **Support:** Pale Waves
-- **Link:** [Louis Tomlinson](https://kbhallen.dk/event/louis-tomlinson_2026-03-30/)
 
 ### Lamb Of God
 
@@ -58,6 +44,13 @@ Upcoming concerts: 13
 - **Status:** available
 - **Link:** [August Høyen](https://kbhallen.dk/event/august-hoyen_2026-11-28/)
 
+### Dimmu Borgir & Behemoth
+
+- **Date:** 2026-04-30 at 19:00
+- **Status:** available
+- **Support:** Dark Funaral
+- **Link:** [Dimmu Borgir & Behemoth](https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/)
+
 ### Magic Men
 
 - **Date:** 2026-05-09 at 20:00
@@ -72,11 +65,11 @@ Upcoming concerts: 13
 
 ## Pumpehuset
 
-### 27. mar 2026
+### 3. apr 2026
 
-- **Date:** 2026-03-27 at 19:00
+- **Date:** 2026-04-03 at 19:00
 - **Status:** available
-- **Link:** [27. mar 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
+- **Link:** [3. apr 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
 
 ### 11. apr 2026
 
@@ -84,15 +77,27 @@ Upcoming concerts: 13
 - **Status:** available
 - **Link:** [11. apr 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
 
+### 13. apr 2026
+
+- **Date:** 2026-04-13 at 19:00
+- **Status:** available
+- **Link:** [13. apr 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
+
 ### 25. maj 2026
 
 - **Date:** 2026-05-25 at 19:00
 - **Status:** available
 - **Link:** [25. maj 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
 
-### 19. sep 2026
+### 18. jul 2026
 
-- **Date:** 2026-09-19 at 19:00
+- **Date:** 2026-07-18 at 19:00
 - **Status:** available
-- **Link:** [19. sep 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
+- **Link:** [18. jul 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
+
+### 3. sep 2026
+
+- **Date:** 2026-09-03 at 19:00
+- **Status:** available
+- **Link:** [3. sep 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
 
