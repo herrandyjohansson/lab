@@ -1,9 +1,9 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-04-03T08:16:11.211224
+Last updated: 2026-04-04T08:10:34.177124
 
 Total concerts: 15
-Upcoming concerts: 15
+Upcoming concerts: 14
 
 ## K.B. Hallen
 

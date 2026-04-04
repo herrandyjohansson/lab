@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-03T08:16:11.211224",
+  "last_updated": "2026-04-04T08:10:34.177124",
   "metadata": {
-    "scraped_at": "2026-04-03T08:16:11.211224",
-    "duration_seconds": 7.905278,
+    "scraped_at": "2026-04-04T08:10:34.177124",
+    "duration_seconds": 7.592491,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 15,
-    "upcoming_concerts": 15,
+    "upcoming_concerts": 14,
     "venues_count": 2
   },
   "venues": {
@@ -223,8 +223,8 @@
       ],
       "metadata": {
         "total_concerts": 9,
-        "scraped_at": "2026-04-03T08:16:11.211532",
-        "duration_seconds": 7.075649,
+        "scraped_at": "2026-04-04T08:10:34.177465",
+        "duration_seconds": 6.72247,
         "status": "success"
       }
     },
@@ -372,8 +372,8 @@
       ],
       "metadata": {
         "total_concerts": 6,
-        "scraped_at": "2026-04-03T08:16:11.212057",
-        "duration_seconds": 7.904107,
+        "scraped_at": "2026-04-04T08:10:34.178048",
+        "duration_seconds": 7.591213,
         "status": "success"
       }
     }
@@ -726,29 +726,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "pumpehuset-3.-apr-2026-2026-04-03",
-      "name": "3. apr 2026",
-      "date": "2026-04-03",
-      "time": "19:00",
-      "status": "available",
-      "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "pumpehuset",
-      "venue_name": "Pumpehuset",
-      "raw_data": {
-        "name": "3. apr 2026",
-        "date": "2026-04-03",
-        "time": "19:00",
-        "status": "Tilgængelig",
-        "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-lamb-of-god-2026-04-11",
       "name": "Lamb Of God",
