@@ -1,6 +1,6 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-04-05T08:10:14.562064
+Last updated: 2026-04-06T09:01:03.548062
 
 Total concerts: 15
 Upcoming concerts: 14
