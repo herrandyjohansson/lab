@@ -1,8 +1,8 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-04-09T08:59:35.529878
+Last updated: 2026-04-10T09:00:16.869149
 
-Total concerts: 15
+Total concerts: 14
 Upcoming concerts: 14
 
 ## K.B. Hallen
@@ -64,12 +64,6 @@ Upcoming concerts: 14
 - **Link:** [AIRTOX DOMINANCE 6.0](https://kbhallen.dk/event/airtox-dominance-6.0_2026-06-06/)
 
 ## Pumpehuset
-
-### 3. apr 2026
-
-- **Date:** 2026-04-03 at 19:00
-- **Status:** available
-- **Link:** [3. apr 2026](https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop)
 
 ### 11. apr 2026
 
