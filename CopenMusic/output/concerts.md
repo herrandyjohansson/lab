@@ -1,24 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-04-11T08:33:39.015975
+Last updated: 2026-04-12T08:38:24.715322
 
-Total concerts: 14
-Upcoming concerts: 14
+Total concerts: 13
+Upcoming concerts: 12
 
 ## K.B. Hallen
-
-### Lamb Of God
-
-- **Date:** 2026-04-11 at 17:45
-- **Status:** available
-- **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
-- **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
-
-### Big Thief
-
-- **Date:** 2026-04-11 at 20:00
-- **Status:** available
-- **Link:** [Big Thief](https://kbhallen.dk/event/big-thief_2026-04-11/)
 
 ### the Kid LAROI
 
@@ -56,6 +43,13 @@ Upcoming concerts: 14
 - **Date:** 2026-05-09 at 20:00
 - **Status:** available
 - **Link:** [Magic Men](https://kbhallen.dk/event/magic-men_2026-05-09/)
+
+### Lamb Of God
+
+- **Date:** 2026-05-11 at 17:45
+- **Status:** available
+- **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
+- **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
 
 ### AIRTOX DOMINANCE 6.0
 
