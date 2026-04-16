@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-15T09:10:54.400507",
+  "last_updated": "2026-04-16T09:10:24.769683",
   "metadata": {
-    "scraped_at": "2026-04-15T09:10:54.400507",
-    "duration_seconds": 7.5628,
+    "scraped_at": "2026-04-16T09:10:24.769683",
+    "duration_seconds": 8.011946,
     "total_venues": 2,
     "successful_venues": 2,
     "total_concerts": 13,
@@ -13,29 +13,6 @@
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-the-kid-laroi-2026-04-15",
-          "name": "the Kid LAROI",
-          "date": "2026-04-15",
-          "time": "20:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "the Kid LAROI",
-            "date": "2026-04-15",
-            "time": "20:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-zar-paulo-2026-04-17",
           "name": "Zar Paulo",
@@ -175,6 +152,29 @@
           }
         },
         {
+          "id": "kb_hallen-the-kid-laroi-2026-05-15",
+          "name": "the Kid LAROI",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "status": "available",
+          "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+          "support": "",
+          "genre": "",
+          "price": null,
+          "venue": "kb_hallen",
+          "venue_name": "K.B. Hallen",
+          "raw_data": {
+            "name": "the Kid LAROI",
+            "date": "2026-05-15",
+            "time": "20:00",
+            "status": "Tilgængelig",
+            "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+            "support": "",
+            "genre": "",
+            "price": null
+          }
+        },
+        {
           "id": "kb_hallen-airtox-dominance-6.0-2026-06-06",
           "name": "AIRTOX DOMINANCE 6.0",
           "date": "2026-06-06",
@@ -200,8 +200,8 @@
       ],
       "metadata": {
         "total_concerts": 8,
-        "scraped_at": "2026-04-15T09:10:54.400826",
-        "duration_seconds": 6.637553,
+        "scraped_at": "2026-04-16T09:10:24.770344",
+        "duration_seconds": 6.956314,
         "status": "success"
       }
     },
@@ -326,8 +326,8 @@
       ],
       "metadata": {
         "total_concerts": 5,
-        "scraped_at": "2026-04-15T09:10:54.401364",
-        "duration_seconds": 7.561567,
+        "scraped_at": "2026-04-16T09:10:24.770844",
+        "duration_seconds": 8.010465,
         "status": "success"
       }
     }
@@ -374,29 +374,6 @@
         "time": "19:00",
         "status": "Tilgængelig",
         "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-the-kid-laroi-2026-04-15",
-      "name": "the Kid LAROI",
-      "date": "2026-04-15",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "the Kid LAROI",
-        "date": "2026-04-15",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
         "support": "",
         "genre": "",
         "price": null
@@ -536,6 +513,29 @@
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
         "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-the-kid-laroi-2026-05-15",
+      "name": "the Kid LAROI",
+      "date": "2026-05-15",
+      "time": "20:00",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "the Kid LAROI",
+        "date": "2026-05-15",
+        "time": "20:00",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+        "support": "",
         "genre": "",
         "price": null
       }
@@ -635,29 +635,6 @@
   ],
   "upcoming": [
     {
-      "id": "kb_hallen-the-kid-laroi-2026-04-15",
-      "name": "the Kid LAROI",
-      "date": "2026-04-15",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "the Kid LAROI",
-        "date": "2026-04-15",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
       "id": "kb_hallen-zar-paulo-2026-04-17",
       "name": "Zar Paulo",
       "date": "2026-04-17",
@@ -791,6 +768,29 @@
         "status": "Tilgængelig",
         "url": "https://kbhallen.dk/event/lamb-of-god_2026-08-11/",
         "support": "Thy Art Is Murder + Fit For An Autopsy + Vended",
+        "genre": "",
+        "price": null
+      }
+    },
+    {
+      "id": "kb_hallen-the-kid-laroi-2026-05-15",
+      "name": "the Kid LAROI",
+      "date": "2026-05-15",
+      "time": "20:00",
+      "status": "available",
+      "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+      "support": "",
+      "genre": "",
+      "price": null,
+      "venue": "kb_hallen",
+      "venue_name": "K.B. Hallen",
+      "raw_data": {
+        "name": "the Kid LAROI",
+        "date": "2026-05-15",
+        "time": "20:00",
+        "status": "Tilgængelig",
+        "url": "https://kbhallen.dk/event/the-kid-laroi_2026-11-15/",
+        "support": "",
         "genre": "",
         "price": null
       }

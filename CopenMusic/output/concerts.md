@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-04-15T09:10:54.400507
+Last updated: 2026-04-16T09:10:24.769683
 
 Total concerts: 13
 Upcoming concerts: 11
 
 ## K.B. Hallen
-
-### the Kid LAROI
-
-- **Date:** 2026-04-15 at 20:00
-- **Status:** available
-- **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### Zar Paulo
 
@@ -50,6 +44,12 @@ Upcoming concerts: 11
 - **Status:** available
 - **Support:** Thy Art Is Murder + Fit For An Autopsy + Vended
 - **Link:** [Lamb Of God](https://kbhallen.dk/event/lamb-of-god_2026-08-11/)
+
+### the Kid LAROI
+
+- **Date:** 2026-05-15 at 20:00
+- **Status:** available
+- **Link:** [the Kid LAROI](https://kbhallen.dk/event/the-kid-laroi_2026-11-15/)
 
 ### AIRTOX DOMINANCE 6.0
 
