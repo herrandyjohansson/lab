@@ -1,41 +1,18 @@
 {
-  "last_updated": "2026-04-17T09:09:07.256701",
+  "last_updated": "2026-04-18T08:39:15.167533",
   "metadata": {
-    "scraped_at": "2026-04-17T09:09:07.256701",
-    "duration_seconds": 7.896127,
+    "scraped_at": "2026-04-18T08:39:15.167533",
+    "duration_seconds": 7.893659,
     "total_venues": 2,
     "successful_venues": 2,
-    "total_concerts": 13,
-    "upcoming_concerts": 11,
+    "total_concerts": 12,
+    "upcoming_concerts": 10,
     "venues_count": 2
   },
   "venues": {
     "kb_hallen": {
       "venue_name": "K.B. Hallen",
       "concerts": [
-        {
-          "id": "kb_hallen-zar-paulo-2026-04-17",
-          "name": "Zar Paulo",
-          "date": "2026-04-17",
-          "time": "20:00",
-          "status": "available",
-          "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
-          "support": "",
-          "genre": "",
-          "price": null,
-          "venue": "kb_hallen",
-          "venue_name": "K.B. Hallen",
-          "raw_data": {
-            "name": "Zar Paulo",
-            "date": "2026-04-17",
-            "time": "20:00",
-            "status": "Tilgængelig",
-            "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
-            "support": "",
-            "genre": "",
-            "price": null
-          }
-        },
         {
           "id": "kb_hallen-joe-bonamassa-2026-04-27",
           "name": "Joe Bonamassa",
@@ -199,9 +176,9 @@
         }
       ],
       "metadata": {
-        "total_concerts": 8,
-        "scraped_at": "2026-04-17T09:09:07.257045",
-        "duration_seconds": 6.901984,
+        "total_concerts": 7,
+        "scraped_at": "2026-04-18T08:39:15.167882",
+        "duration_seconds": 6.616451,
         "status": "success"
       }
     },
@@ -326,8 +303,8 @@
       ],
       "metadata": {
         "total_concerts": 5,
-        "scraped_at": "2026-04-17T09:09:07.257504",
-        "duration_seconds": 7.894953,
+        "scraped_at": "2026-04-18T08:39:15.169333",
+        "duration_seconds": 7.891585,
         "status": "success"
       }
     }
@@ -374,29 +351,6 @@
         "time": "19:00",
         "status": "Tilgængelig",
         "url": "https://pumpehuset.dk/program/?genre=Jazz%2CMetal%2CRock%2CPop",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
-    {
-      "id": "kb_hallen-zar-paulo-2026-04-17",
-      "name": "Zar Paulo",
-      "date": "2026-04-17",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Zar Paulo",
-        "date": "2026-04-17",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
         "support": "",
         "genre": "",
         "price": null
@@ -634,29 +588,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "kb_hallen-zar-paulo-2026-04-17",
-      "name": "Zar Paulo",
-      "date": "2026-04-17",
-      "time": "20:00",
-      "status": "available",
-      "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
-      "support": "",
-      "genre": "",
-      "price": null,
-      "venue": "kb_hallen",
-      "venue_name": "K.B. Hallen",
-      "raw_data": {
-        "name": "Zar Paulo",
-        "date": "2026-04-17",
-        "time": "20:00",
-        "status": "Tilgængelig",
-        "url": "https://kbhallen.dk/event/zar-paulo_2026-04-17/",
-        "support": "",
-        "genre": "",
-        "price": null
-      }
-    },
     {
       "id": "kb_hallen-joe-bonamassa-2026-04-27",
       "name": "Joe Bonamassa",

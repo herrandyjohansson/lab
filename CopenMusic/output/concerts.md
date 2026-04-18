@@ -1,17 +1,11 @@
 # CopenMusic Concert Listings
 
-Last updated: 2026-04-17T09:09:07.256701
+Last updated: 2026-04-18T08:39:15.167533
 
-Total concerts: 13
-Upcoming concerts: 11
+Total concerts: 12
+Upcoming concerts: 10
 
 ## K.B. Hallen
-
-### Zar Paulo
-
-- **Date:** 2026-04-17 at 20:00
-- **Status:** available
-- **Link:** [Zar Paulo](https://kbhallen.dk/event/zar-paulo_2026-04-17/)
 
 ### Joe Bonamassa
 
